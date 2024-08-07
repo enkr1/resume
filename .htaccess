@@ -1,0 +1,17 @@
+Options +FollowSymLinks -MultiViews
+DirectorySlash Off
+
+RewriteEngine On
+
+# Redirect directories to their index.html equivalent
+RewriteCond %{SCRIPT_FILENAME}/ -d
+RewriteCond %{SCRIPT_FILENAME}.html !-f
+RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
+
+# Remove .html extension from URLs
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Append .html extension to files if not present
+RewriteCond %{SCRIPT_FILENAME}.html -f
+RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
