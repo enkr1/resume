@@ -1,0 +1,20 @@
+/* Print Styles */
+@media print {
+  @page {
+    // margin: 1in;
+  }
+
+  header,
+  footer {
+    // display: none;
+  }
+
+  body {
+    padding: 0;
+    font-size: 1.4rem;
+  }
+
+  section {
+    padding: 0;
+  }
+}

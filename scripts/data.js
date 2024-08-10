@@ -41,10 +41,21 @@ const RESUME_DATA = {
   },
   "work_history": [
     {
-      "position": "Full Stack Software Engineer / Tech Lead",
+      "position": "Software Engineer, Project Manager",
+      "company": "ByteDance, Singapore",
+      "start_date": "December 2023",
+      "end_date": "Present",
+      "responsibilities": [
+        "Leading and managing full-stack development projects using aPaaS with Node.js and Go, ensuring timely and successful delivery.",
+        "Driving innovation in low-code solutions through the Feishu App Engine, enhancing operational efficiency and scalability.",
+        "Collaborating with cross-functional teams to translate complex technical requirements into effective solutions.",
+      ]
+    },
+    {
+      "position": "Full Stack Software Engineer, Tech Lead",
       "company": "Pixium Digital, Singapore",
-      "start_date": "MARCH 2021",
-      "end_date": "PRESENT",
+      "start_date": "March 2021",
+      "end_date": "December 2023",
       "responsibilities": [
         "Spearheaded web application projects, driving both the strategic direction and hands-on execution",
         "Developed robust web applications using Elixir, PHP, JS/TS, significantly improving UX and system performance",
@@ -61,8 +72,8 @@ const RESUME_DATA = {
     {
       "position": "Full Stack Software Engineer Intern",
       "company": "Pixium Digital, Singapore",
-      "start_date": "SEPTEMBER 2020",
-      "end_date": "FEBRUARY 2021",
+      "start_date": "September 2020",
+      "end_date": "February 2021",
       "responsibilities": [
         "Engineered robust web and mobile applications in a Docker-optimised setting, resulting in a measurable improvement in system efficiency and contributing to client retention for recurring contracts",
         "Actively collaborated with teammates on a Flutter-based mobile application and shared responsibilities in both mobile development and backend API integration, collectively exceeding client expectations",
@@ -107,7 +118,7 @@ const RESUME_DATA = {
       ]
     },
     {
-      "title": "Java (School)",
+      "title": "Java (Academic Projects)",
       "achievements": [
         "Digital Service and Incentive Platform for Sentosa Development Corporation (SDC)",
         "Spearheaded the full-stack development of a multi-role digital platform using Java and NetBeans IDE",
@@ -122,8 +133,8 @@ const RESUME_DATA = {
     {
       "institution": "Singapore Polytechnic",
       "degree": "Diploma in Information Technology",
-      "start_date": "APRIL 2018",
-      "end_date": "MAY 2021",
+      "start_date": "April 2018",
+      "end_date": "May 2021",
       "details": [
         "Specialised in UI/UX Design and Data Structures & Algorithms, establishing a strong academic foundation that equips me with key competencies essential for advanced software engineering roles",
         "Earned 2nd-place as the Full-Stack Team Leader in a team of five for a Java-based final year project for SDC",
@@ -140,17 +151,20 @@ const RESUME_DATA = {
   },
   "certifications_awards": [
     {
-      "title": "Data Science And Machine Learning: Making Data Driven Decisions",
+      "title": "Data Science and Machine Learning: Making Data-Driven Decisions",
       "issuer": "MIT Schwarzman College of Computing",
       "issue_date": "January 2024",
       "credential_id": "PYCYNIRT",
-      "link": "https://www.linkedin.com/in/jinghuipang/"
+      "link": "https://www.linkedin.com/in/jinghuipang/",
+      "desc": "Completed an advanced course on Data Science and Machine Learning, focusing on transforming complex datasets into actionable insights. This certification highlights my ability to leverage machine learning techniques to make data-driven decisions, essential for optimising business processes."
     },
     {
-      "title": "3rd place in 2018 cohort - Final year project: Digital Service and Incentive Platform",
+      "title": "3rd Place in Final Year Project: Digital Service and Incentive Platform",
       "issuer": "Sentosa Development Corporation",
       "issue_date": "January 2018",
-      "link": "https://www.linkedin.com/in/jinghuipang/"
+      "credential_id": "",
+      "link": "https://www.linkedin.com/in/jinghuipang/",
+      "desc": "Achieved 3rd place for a project that was recognised among the top 10 in the Singapore Polytechnic 2018 cohort. The project involved designing a comprehensive digital platform for the Sentosa Development Corporation, showcasing my ability to lead and deliver innovative solutions in a competitive environment."
     }
   ],
   "volunteering": [

@@ -1,0 +1,60 @@
+#resume-header {
+  // ...
+}
+
+#resume-main {
+
+  // Section Styles
+  section {
+    margin: 0 0 3rem; // Use rem for consistency with other units
+
+    >div {
+      margin: 0 0 1.5rem;
+    }
+
+    h2 {
+      border-bottom: .1rem solid $border-color; // Use variable for border color
+      padding-bottom: .1rem;
+      margin: 0 0 .5rem;
+      font-size: 2rem; // Adjust font size with rem units
+      font-weight: 700;
+      color: $heading-color; // Use variable for heading color
+    }
+
+    h3 {
+      font-weight: 600;
+    }
+
+    ul {
+      padding: 0 0 0 1.5rem;
+    }
+
+    .section-secondary-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: .1rem solid $border-color; // Use variable for border color
+      margin: 0 0 .5rem;
+    }
+
+    &#experience-section {
+      .job-header {}
+    }
+  }
+
+  // // Skills Styles
+  // #skills ul {
+  //   list-style: none;
+  //   padding: 0;
+  // }
+  //
+  // #skills ul li {
+  //   display: inline-block;
+  //   background: $skill-bg-color; // Use variable for background color
+  //   margin: .5rem;
+  //   padding: .5rem 1rem .5rem 3rem;
+  //   border-radius: $border-radius; // Use variable for border radius
+  //   // font-size: 1.6rem; // Adjust font size with rem units
+  //   color: $skill-text-color; // Use variable for text color
+  // }
+}

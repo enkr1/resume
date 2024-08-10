@@ -1,0 +1,22 @@
+// Color Variables
+$primary-color: #FF0000;          // Main brand color
+$primary-color-dark: #CC0000;     // Darker variant for hover states or emphasis
+$primary-color-light: #FF6666;    // Lighter variant for backgrounds or accents
+
+// Text Colors
+$primary-text-color: #333333;       // Main text color, dark grey
+$secondary-text-color: #4A4A4A;     // Slightly lighter grey for secondary text
+$heading-text-color: #1A1A1A;       // Darker grey for headings
+$muted-text-color: #888888;         // Muted grey for less important text (e.g., meta information)
+
+// Background Colors
+$body-background-color: #FFFFFF;    // Standard white background
+
+$border-color: #ddd; // Border color for section headings
+// $heading-color: #333; // Color for h2 headings
+$heading-color: $primary-color; // Color for h2 headings
+$skill-bg-color: #f4f4f4; // Background color for skill items
+$skill-text-color: #333; // Text color for skill items
+
+// Sizing Variables
+$border-radius: 0.4rem; // Border radius for skill items

@@ -1,0 +1,32 @@
+/*
+
+// Some SCSS file where you want to use the mixin
+
+.button {
+  @include box-shadow(rgba(0, 0, 0, 0.15), 10px);
+}
+
+.card {
+  @include box-shadow(rgba(0, 0, 0, 0.25), 15px);
+}
+
+*/
+@mixin box-shadow($shadow-color, $blur-radius) {
+  box-shadow: 0 0 $blur-radius $shadow-color;
+}
+
+// Mixin for flexbox centering
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Mixin for responsive font size
+@mixin responsive-font($min-size, $max-size) {
+  font-size: $min-size;
+
+  @media screen and (min-width: 768px) {
+    font-size: $max-size;
+  }
+}
