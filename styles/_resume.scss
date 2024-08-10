@@ -1,7 +1,3 @@
-#resume-header {
-  // ...
-}
-
 #resume-main {
 
   // Section Styles
@@ -13,16 +9,19 @@
     }
 
     h2 {
+      font-size: 2.1rem; // Adjust font size with rem units
+      font-weight: 700;
+      letter-spacing: .03rem;
+      font-family: "Playfair Display", serif;
       border-bottom: .1rem solid $border-color; // Use variable for border color
       padding-bottom: .1rem;
       margin: 0 0 .5rem;
-      font-size: 2rem; // Adjust font size with rem units
-      font-weight: 700;
       color: $heading-color; // Use variable for heading color
     }
 
     h3 {
-      font-weight: 600;
+      font-weight: 500;
+      font-size: 1.6rem;
     }
 
     ul {
@@ -35,6 +34,17 @@
       align-items: center;
       border-bottom: .1rem solid $border-color; // Use variable for border color
       margin: 0 0 .5rem;
+      padding: 0 0 .3rem;
+
+      p {
+        font-weight: 500;
+      }
+    }
+
+    &#summary-section {
+      p {
+        text-align: justify;
+      }
     }
 
     &#experience-section {

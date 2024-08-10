@@ -12,8 +12,8 @@ const RESUME_DATA = {
   "summary": "In the fast-paced world of technology, I distinguish myself as a multifaceted Software Engineer with over 3 years of hands-on experience. Specialised in Java, PHP, and cloud-native solutions like AWS and Terraform, I have led cross-functional teams in delivering high-impact digital products. My unique blend of expertise ranges from scalable microservices and RESTful APIs to advanced data structures and CI/CD pipelines. A staunch advocate of agile methodologies, I transform complex requirements into robust and fault-tolerant systems. As I continually seek challenges that stretch the boundaries of software engineering, I am eager to contribute to forward-thinking organisations leading the tech innovation landscape.",
   "technical_skills": {
     "programming_languages": {
-      "main": ["Elixir", "Java", "PHP", "Bash"],
-      "additional": ["Python", "JavaScript", "TypeScript", "Dart", "Kotlin"]
+      "main": ["JavaScript", "Java", "Bash"],
+      "additional": ["PHP", "Elixir", "Python", "TypeScript", "Dart", "Kotlin"]
     },
     "frameworks_libraries": {
       "backend": ["Phoenix", "Yii2"],
