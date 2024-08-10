@@ -120,6 +120,12 @@ body p {
 #resume-main section#summary-section p {
   text-align: justify;
 }
+#resume-footer {
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
 /* Print Styles */
 @media print {
   @page {}
