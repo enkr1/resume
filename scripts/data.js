@@ -17,7 +17,7 @@ const RESUME_DATA = {
     },
     "frameworks_libraries": {
       "backend": ["Phoenix", "Yii2"],
-      "frontend": ["Flutter", "Tailwind", "React", "Vue", "jQuery"]
+      "frontend": ["React", "Flutter", "Tailwind", "Vue", "jQuery"]
     },
     "databases": {
       "relational": ["MySQL", "PostgreSQL"],
@@ -41,14 +41,19 @@ const RESUME_DATA = {
   },
   "work_history": [
     {
-      "position": "Software Engineer, Project Manager",
+      "position": "Software Engineer, aPaaS Consultant",
       "company": "ByteDance, Singapore",
       "start_date": "December 2023",
       "end_date": "Present",
       "responsibilities": [
         "Leading and managing full-stack development projects using aPaaS with Node.js and Go, ensuring timely and successful delivery.",
-        "Driving innovation in low-code solutions through the Feishu App Engine, enhancing operational efficiency and scalability.",
-        "Collaborating with cross-functional teams to translate complex technical requirements into effective solutions.",
+        "Driving innovation in low-code solutions through the Feishu App Engine, enhancing stakeholder's operational efficiency and scalability across multiple departments in ByteDance.",
+        "Collaborating with cross-functional teams to translate complex technical requirements into effective solutions, significantly reducing development cycle times and increasing stakeholder satisfaction.",
+        "Spearheading and independently managing full-stack development projects, ranging from small internal tools to large-scale applications supporting over 180,000 users, resulting in a measurable reduction in manual processes and operational costs.",
+        "Serving as both the developer and project manager for significant internal projects, ensuring seamless integration and coordination across teams, leading to a documented improvement in project delivery time.",
+        "Handling large datasets and improving performance through the integration of Redis and advanced architectural concepts, optimising data processing and scalability, which has directly impacted application responsiveness and stability.",
+        "Leading requirement gathering, solution proposals, and implementation strategies for internal projects, effectively bridging the gap between stakeholders and development teams, minimising miscommunication-related delays and ensuring alignment with business goals.",
+        "Coordinating with internal R&D teams to integrate and align internal systems with existing ByteDance infrastructures, ensuring smooth operation and consistency, resulting in the successful delivery of projects that met or exceeded expectations."
       ]
     },
     {
@@ -118,7 +123,7 @@ const RESUME_DATA = {
       ]
     },
     {
-      "title": "Java (Academic Projects)",
+      "title": "Java - Academic Projects",
       "achievements": [
         "Digital Service and Incentive Platform for Sentosa Development Corporation (SDC)",
         "Spearheaded the full-stack development of a multi-role digital platform using Java and NetBeans IDE",
