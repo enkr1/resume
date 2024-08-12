@@ -24,6 +24,10 @@ body {
   padding: 1.3rem 3rem;
   background-color: $body-background-color;
 
+  @media screen and (max-width: $screen_sm) {
+    padding: 1rem 2rem 0;
+  }
+
   p {
     font-size: 1.4rem;
     color: $primary-text-color;

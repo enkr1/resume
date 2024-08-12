@@ -10,22 +10,28 @@ const RESUME_DATA = {
     "linkedin": "https://www.linkedin.com/in/jinghuipang"
   },
   "summary": "In the fast-paced world of technology, I distinguish myself as a multifaceted Software Engineer with over 3 years of hands-on experience. Specialised in Java, PHP, and cloud-native solutions like AWS and Terraform, I have led cross-functional teams in delivering high-impact digital products. My unique blend of expertise ranges from scalable microservices and RESTful APIs to advanced data structures and CI/CD pipelines. A staunch advocate of agile methodologies, I transform complex requirements into robust and fault-tolerant systems. As I continually seek challenges that stretch the boundaries of software engineering, I am eager to contribute to forward-thinking organisations leading the tech innovation landscape.",
-  "technical_skills": {
-    "programming_languages": {
-      "main": ["JavaScript", "Java", "Bash"],
-      "additional": ["PHP", "Elixir", "Python", "TypeScript", "Dart", "Kotlin"]
+  "technical_skills": [
+    {
+      "category": "Programming Languages",
+      "skills": ["JavaScript", "Java", "Bash", "PHP", "Elixir", "Python", "TypeScript", "Dart", "Kotlin"]
     },
-    "frameworks_libraries": {
-      "backend": ["Phoenix", "Yii2"],
-      "frontend": ["React", "Flutter", "Tailwind", "Vue", "jQuery"]
+    {
+      "category": "Frameworks & Libraries",
+      "skills": ["Phoenix", "Yii2", "React", "Flutter", "Tailwind", "Vue", "jQuery"]
     },
-    "databases": {
-      "relational": ["MySQL", "PostgreSQL"],
-      "noSQL": ["Firebase Realtime Database", "DynamoDB", "MariaDB"]
+    {
+      "category": "Databases",
+      "skills": ["MySQL", "PostgreSQL", "Firebase Realtime Database", "DynamoDB", "MariaDB"]
     },
-    "web_technologies": ["SCSS", "CSS", "HTML5"],
-    "infrastructure_configuration": ["Terraform", "YAML", "JSON", "Markdown"]
-  },
+    {
+      "category": "Web Technologies",
+      "skills": ["SCSS", "CSS", "HTML5"]
+    },
+    {
+      "category": "Infrastructure & Configuration",
+      "skills": ["Terraform", "YAML", "JSON", "Markdown"]
+    }
+  ],
   "tools_technologies": {
     "development_environment": ["VSC", "Vim", "Android Studio", "NetBeans"],
     "operating_systems": ["macOS", "Linux"],

@@ -1,11 +1,10 @@
 #resume-main {
-
   // Section Styles
   section {
     margin: 0 0 3rem; // Use rem for consistency with other units
 
     >div {
-      margin: 0 0 1.5rem;
+      margin: 0 0 1.3rem;
     }
 
     h2 {
@@ -25,7 +24,14 @@
     }
 
     ul {
-      padding: 0 0 0 1.5rem;
+      padding: 0 0 0rem 1.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: .3rem;
+
+      li {
+        color: $secondary-text-color;
+      }
     }
 
     .section-secondary-header {
@@ -36,8 +42,20 @@
       margin: 0 0 .5rem;
       padding: 0 0 .3rem;
 
+      @media screen and (max-width: $screen_sm) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
       p {
+        // color: $primary-color-light;
+        // color: $primary-color-dark;
         font-weight: 500;
+
+        &.duration,
+        &.date {
+          font-style: italic;
+        }
       }
     }
 
@@ -47,9 +65,26 @@
       }
     }
 
+    /* Skills Section */
+    &#skills-section {
+      .skills-container {
+        .li-skill {
+
+          .skill-type-title {
+            font-weight: 500;
+          }
+
+          .single-skill {
+            // border: 1px solid red;
+          }
+        }
+      }
+    }
+
     &#experience-section {
       .job-header {}
     }
+
   }
 
   // // Skills Styles

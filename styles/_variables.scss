@@ -5,7 +5,7 @@ $primary-color-light: #FF6666;    // Lighter variant for backgrounds or accents
 
 // Text Colors
 $primary-text-color: #333333;       // Main text color, dark grey
-$secondary-text-color: #4A4A4A;     // Slightly lighter grey for secondary text
+$secondary-text-color: #555555;     // Slightly lighter grey for secondary text
 $heading-text-color: #1A1A1A;       // Darker grey for headings
 $muted-text-color: #888888;         // Muted grey for less important text (e.g., meta information)
 
@@ -20,3 +20,15 @@ $skill-text-color: #333; // Text color for skill items
 
 // Sizing Variables
 $border-radius: 0.4rem; // Border radius for skill items
+
+
+// Media Breakpoints based on Bootstrap 3
+$screen_xl: 1440px;
+$screen_lg: 1281px;
+$screen_md_1: 1024px;
+$screen_md_2: 992px;
+
+/* tablet */
+$screen_sm: 768px;
+$screen_xs: 480px;
+$screen_xxs: 320px;
