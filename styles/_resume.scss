@@ -1,4 +1,5 @@
 #resume-main {
+
   // Section Styles
   section {
     margin: 0 0 3rem; // Use rem for consistency with other units
@@ -41,10 +42,15 @@
       border-bottom: .1rem solid $border-color; // Use variable for border color
       margin: 0 0 .5rem;
       padding: 0 0 .3rem;
+      gap: 0 1.3rem;
 
       @media screen and (max-width: $screen_sm) {
         flex-direction: column;
         align-items: flex-start;
+        p {
+          text-align: right;
+          width: 100%;
+        }
       }
 
       p {

@@ -1,5 +1,6 @@
 const RESUME_DATA = {
   "name": "Jing Hui PANG",
+  "name_cn": "彭竞辉",
   "title": "Full-Stack Software Engineer, Technical Leader, Project Manager",
   "location": "Singapore",
   "contact": {
@@ -9,15 +10,18 @@ const RESUME_DATA = {
     "portfolio": "https://enkr1.github.io/platforms",
     "linkedin": "https://www.linkedin.com/in/jinghuipang"
   },
+  // "summary": "With over 3 years of experience as a Full-Stack Software Engineer, I am deeply passionate about Elixir and its potential for building scalable, high-performance applications. Although my current role focuses on a broader tech stack, I am eager to contribute to a team where Elixir is at the forefront. Inspired by its adoption in platforms like Discord and WhatsApp, I am enthusiastic about learning and growing in an Elixir-focused environment, ready to help drive innovation and sustainability at Apple.",
+
+  // Original
   "summary": "In the fast-paced world of technology, I distinguish myself as a multifaceted Software Engineer with over 3 years of hands-on experience. Specialised in Java, PHP, and cloud-native solutions like AWS and Terraform, I have led cross-functional teams in delivering high-impact digital products. My unique blend of expertise ranges from scalable microservices and RESTful APIs to advanced data structures and CI/CD pipelines. A staunch advocate of agile methodologies, I transform complex requirements into robust and fault-tolerant systems. As I continually seek challenges that stretch the boundaries of software engineering, I am eager to contribute to forward-thinking organisations leading the tech innovation landscape.",
   "technical_skills": [
     {
       "category": "Programming Languages",
-      "skills": ["JavaScript", "Java", "Bash", "PHP", "Elixir", "Python", "TypeScript", "Dart", "Kotlin"]
+      "skills": ["Elixir", "JavaScript", "Java", "Bash", "PHP", "Python", "TypeScript", "Dart", "Kotlin"]
     },
     {
       "category": "Frameworks & Libraries",
-      "skills": ["Phoenix", "Yii2", "React", "Flutter", "Tailwind", "Vue", "jQuery"]
+      "skills": ["Phoenix", "LiveView", "Yii2", "React", "Flutter", "Tailwind CSS", "Vue", "jQuery"]
     },
     {
       "category": "Databases",
@@ -48,7 +52,7 @@ const RESUME_DATA = {
   "work_history": [
     {
       "position": "Software Engineer, aPaaS Consultant",
-      "company": "ByteDance, Singapore",
+      "company": "ByteDance",
       "start_date": "December 2023",
       "end_date": "Present",
       "responsibilities": [
@@ -64,7 +68,7 @@ const RESUME_DATA = {
     },
     {
       "position": "Full Stack Software Engineer, Tech Lead",
-      "company": "Pixium Digital, Singapore",
+      "company": "Pixium Digital",
       "start_date": "March 2021",
       "end_date": "December 2023",
       "responsibilities": [
@@ -82,7 +86,7 @@ const RESUME_DATA = {
     },
     {
       "position": "Full Stack Software Engineer Intern",
-      "company": "Pixium Digital, Singapore",
+      "company": "Pixium Digital",
       "start_date": "September 2020",
       "end_date": "February 2021",
       "responsibilities": [

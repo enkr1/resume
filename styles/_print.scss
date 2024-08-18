@@ -16,5 +16,16 @@
 
   section {
     padding: 0;
+
+    .section-secondary-header {
+
+      h3 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1.3rem;
+        white-space: nowrap;
+      }
+    }
   }
 }

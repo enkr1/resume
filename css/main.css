@@ -157,11 +157,16 @@ body p {
   border-bottom: 0.1rem solid #ddd;
   margin: 0 0 0.5rem;
   padding: 0 0 0.3rem;
+  gap: 0 1.3rem;
 }
 @media screen and (max-width: 768px) {
   #resume-main section .section-secondary-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+  #resume-main section .section-secondary-header p {
+    text-align: right;
+    width: 100%;
   }
 }
 #resume-main section .section-secondary-header p {
@@ -191,5 +196,12 @@ body p {
   }
   section {
     padding: 0;
+  }
+  section .section-secondary-header h3 {
+    font-size: 1.5rem;
+  }
+  section .section-secondary-header p {
+    font-size: 1.3rem;
+    white-space: nowrap;
   }
 }
