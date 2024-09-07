@@ -1,7 +1,7 @@
 const RESUME_DATA = {
   "name": "Jing Hui PANG",
   "name_cn": "彭竞辉",
-  "title": "Full-Stack Software Engineer, Technical Leader, Project Manager",
+  "title": "Full-Stack Software Engineer, Project Manager, aPaaS Consultant",
   "location": "Singapore",
   "contact": {
     "phone": "+65 8128 7402",
@@ -10,10 +10,8 @@ const RESUME_DATA = {
     "portfolio": "https://enkr1.github.io/platforms",
     "linkedin": "https://www.linkedin.com/in/jinghuipang"
   },
-  // "summary": "With over 3 years of experience as a Full-Stack Software Engineer, I am deeply passionate about Elixir and its potential for building scalable, high-performance applications. Although my current role focuses on a broader tech stack, I am eager to contribute to a team where Elixir is at the forefront. Inspired by its adoption in platforms like Discord and WhatsApp, I am enthusiastic about learning and growing in an Elixir-focused environment, ready to help drive innovation and sustainability at Apple.",
-
   // Original
-  "summary": "In the fast-paced world of technology, I distinguish myself as a multifaceted Software Engineer with over 3 years of hands-on experience. Specialised in Java, PHP, and cloud-native solutions like AWS and Terraform, I have led cross-functional teams in delivering high-impact digital products. My unique blend of expertise ranges from scalable microservices and RESTful APIs to advanced data structures and CI/CD pipelines. A staunch advocate of agile methodologies, I transform complex requirements into robust and fault-tolerant systems. As I continually seek challenges that stretch the boundaries of software engineering, I am eager to contribute to forward-thinking organisations leading the tech innovation landscape.",
+  "summary": "As a dedicated Software Engineer with over 3 years of experience, I have a proven track record of designing and developing scalable, high-performance systems. My expertise spans various programming languages and technologies, including JavaScript, Elixir, and AWS, with a focus on delivering solutions that enhance operational efficiency and improve user experiences. I thrive in fast-paced environments where I can apply my problem-solving skills and passion for innovation, continuously exploring new tools and methodologies. At ByteDance, I led full-stack development efforts for large-scale projects, optimising data flows and processing for over 180,000 users, and improving system performance through advanced architectural design. My ability to work effectively both independently and as part of cross-functional teams has allowed me to consistently deliver high-quality software solutions, all while maintaining a strong focus on user satisfaction and business impact. I am passionate about staying current with emerging technologies, and I am eager to contribute to a forward-thinking organisation that values growth, collaboration, and cutting-edge innovation. My commitment to lifelong learning, combined with a proactive approach to solving complex challenges, makes me a valuable asset to any team.",
   "technical_skills": [
     {
       "category": "Programming Languages",

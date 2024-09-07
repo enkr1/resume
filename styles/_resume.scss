@@ -1,3 +1,6 @@
+
+$ul-padding-1: 1.8rem;
+
 #resume-main {
 
   // Section Styles
@@ -25,7 +28,7 @@
     }
 
     ul {
-      padding: 0 0 0rem 1.8rem;
+      padding: 0 0 0rem $ul-padding-1;
       display: flex;
       flex-direction: column;
       gap: .3rem;
@@ -47,6 +50,7 @@
       @media screen and (max-width: $screen_sm) {
         flex-direction: column;
         align-items: flex-start;
+
         p {
           text-align: right;
           width: 100%;
@@ -87,8 +91,14 @@
       }
     }
 
-    &#experience-section {
-      .job-header {}
+    &#experience-section {}
+
+
+    .single-job:not(:last-child),
+    .single-project:not(:last-child) {
+      ul {
+        padding: 0 0 1.3rem $ul-padding-1;
+      }
     }
 
   }

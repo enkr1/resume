@@ -181,6 +181,11 @@ body p {
 #resume-main section#skills-section .skills-container .li-skill .skill-type-title {
   font-weight: 500;
 }
+#resume-main section .single-job:not(:last-child) ul,
+#resume-main section .single-project:not(:last-child) ul {
+  padding: 0 0 1.3rem 1.8rem;
+}
+
 #resume-footer {
   text-align: center;
   font-size: 1rem;
@@ -190,6 +195,9 @@ body p {
 /* Print Styles */
 @media print {
   @page {}
+  html {
+    font-size: 40%; /* Reducing the base font size by 90% */
+  }
   body {
     padding: 0;
     font-size: 1.4rem;
