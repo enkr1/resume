@@ -1,21 +1,28 @@
 const RESUME_DATA = {
   "name": "Jing Hui PANG",
-  "name_cn": "彭竞辉",
-  "title": "Full-Stack Software Engineer, Project Manager, aPaaS Consultant",
+  "name_cn": "彭競辉",
+  "title": "Full-Stack Software Engineer, aPaaS Consultant",
   "location": "Singapore",
   "contact": {
-    "phone": "+65 8128 7402",
+    "phone": "+65 81287402",
     "email": "jinghuipang99@gmail.com",
     "github": "https://github.com/enkr1",
     "portfolio": "https://enkr1.github.io/platforms",
     "linkedin": "https://www.linkedin.com/in/jinghuipang"
   },
   // Original
-  "summary": "As a dedicated Software Engineer with over 3 years of experience, I have a proven track record of designing and developing scalable, high-performance systems. My expertise spans various programming languages and technologies, including JavaScript, Elixir, and AWS, with a focus on delivering solutions that enhance operational efficiency and improve user experiences. I thrive in fast-paced environments where I can apply my problem-solving skills and passion for innovation, continuously exploring new tools and methodologies. At ByteDance, I led full-stack development efforts for large-scale projects, optimising data flows and processing for over 180,000 users, and improving system performance through advanced architectural design. My ability to work effectively both independently and as part of cross-functional teams has allowed me to consistently deliver high-quality software solutions, all while maintaining a strong focus on user satisfaction and business impact. I am passionate about staying current with emerging technologies, and I am eager to contribute to a forward-thinking organisation that values growth, collaboration, and cutting-edge innovation. My commitment to lifelong learning, combined with a proactive approach to solving complex challenges, makes me a valuable asset to any team.",
+  "summary": "I am a dedicated Software Engineer with over four years of hands-on experience in building scalable, high-performance systems. My journey has spanned full-stack development, infrastructure automation, and aPaaS consulting using technologies such as JavaScript, Go, Elixir, and AWS. At ByteDance, I've had the privilege of contributing to innovative internal projects through a low-code platform—demonstrating the efficiency of agile development by supporting over 180,000 users while reducing manual processes and operational costs. One of my key projects involved developing a large-scale business insurance platform, where I honed my ability to quickly adapt, solve complex challenges, and perform under high-stakes production conditions. I am passionate about continuous learning and have strengthened my technical foundation through ML-related coursework at MIT IDSS, fueling my proactive approach to mastering new technologies. Whether working independently or as part of a collaborative cross-functional team, I thrive in fast-paced environments and consistently deliver impactful solutions. I bring a growth mindset, strong problem-solving skills, and a commitment to building reliable, innovative systems—qualities that make me an excellent fit for roles in software engineering, SRE, and beyond.",
+  // "summary": "I am a committed Software Engineer with over 3 years of experience, specialising in building scalable, high-performance systems. My technical expertise includes JavaScript, Elixir, and AWS, where I have contributed to the development of solutions that improve operational efficiency and user experience. At ByteDance, I currently work closely with a small team as a software engineer and aPaaS consultant, handling internal projects built using JavaScript, Go, and Java. This role has provided me with the opportunity to work collaboratively with both technical and non-technical stakeholders, which has significantly enhanced my communication, problem-solving, and teamwork skills. Our small team structure allows for a high degree of collaboration, and I have learned to adapt to the needs of the project quickly while ensuring we maintain operational excellence. One of my key projects at ByteDance involved the development of a large-scale business insurance platform for over 180,000 users, where we faced complex technical challenges and high-stakes production issues. This experience has given me a strong foundation in handling critical systems under pressure, similar to the demands of a production engineering environment. I thrive in fast-paced situations where quick decision-making and immediate resolution are necessary to ensure system reliability and performance. I am deeply motivated by the opportunity to apply my technical expertise while contributing to real-time production issues, and I am particularly interested in how I can apply functional programming principles—like those used in Elixir—to new challenges. I am eager to expand my knowledge, especially in OCaml, and continue growing within a collaborative and innovative team. I bring a proactive approach to learning, an eagerness to solve complex problems, and a passion for building reliable, impactful systems. I believe my blend of technical skills and experience working within collaborative teams makes me a strong fit for a Production Engineer role, where I can continue to develop and contribute to cutting-edge projects.",
+  // "summary": "I am a passionate Software Engineer with over 3 years of experience, specialising in full-stack and mobile development. My expertise spans across JavaScript, Elixir, and AWS, with a strong focus on mobile technologies, particularly in Flutter and Dart, which I used extensively to build mobile applications at Pixium. My experience in designing and delivering scalable systems that cater to large user bases, along with my strong foundation in data structures and algorithms, equips me to thrive in fast-paced, dynamic environments like Google. Currently, I work as part of a collaborative team at ByteDance, where I contribute to the development of internal software solutions. I engage with stakeholders to solve complex problems through end-to-end technical solutions, using JavaScript, Go, and Java. I am committed to writing efficient, maintainable code and consistently seek out opportunities to learn and grow, whether through exploring new technologies or honing my problem-solving skills. What excites me most about the opportunity at Google is the chance to contribute to projects that have a global impact, such as Google Pay. With my background in mobile development and my passion for creating seamless user experiences, I am eager to be part of a team that pushes technological boundaries while focusing on quality, innovation, and security. Google's culture of learning, collaboration, and innovation is exactly where I see myself thriving, and I am eager to bring my skills and passion to help shape the future of digital payments.",
+  // "summary": "I am a dedicated Software Engineer with over 3 years of experience in software and systems engineering, specialising in building reliable, scalable, and high-performance systems. My technical expertise includes JavaScript, Elixir, and AWS, with hands-on experience in optimising systems, managing infrastructure, and automating repetitive tasks to enhance operational efficiency and reliability. Currently, I work as part of a collaborative team at ByteDance, where I support large-scale internal projects and tackle complex technical challenges related to capacity, stability, and performance. In this role, I focus on streamlining workflows, optimising system performance, and troubleshooting production issues—all essential aspects of site reliability engineering. My experience has given me a strong foundation in coding, algorithms, and large-scale system design, allowing me to approach challenges with a strategic, solutions-oriented mindset. I thrive in fast-paced, dynamic environments where intellectual curiosity and teamwork drive continuous improvement. My goal is to apply my technical skills and problem-solving abilities to ensure high uptime, resilience, and scalability for critical services. With a passion for learning and a commitment to best practices, I am excited to bring my expertise to Google Cloud’s Site Reliability Engineering team and contribute to maintaining and enhancing service reliability for users worldwide.",
+  // "summary": "I am a Software Engineer with over 4 years of experience, passionate about building scalable and high-performance systems from 0 to 100. My expertise spans software engineering, infrastructure automation, and system observability, with a strong foundation in Node.js, Bash, and Terraform. In my previous role, I led the end-to-end setup of environments, leveraging Terraform and cloud technologies to design robust, automated infrastructure. While I dont have hands-on experience with Prometheus or ELK, I have worked with Grafana to create simple monitoring dashboards and I'm always proactively learning new tools to improve system reliability and efficiency. At ByteDance, I focus on building internal platforms that enhance operational processes for HR, legal, and finance teams. I thrive in problem-solving, optimising system performance, and integrating automation to streamline workflows. I also actively leverage AI tools to find creative solutions, believing that a proactive mindset can always uncover innovative ways to tackle challenges. I'm excited about opportunities where I can apply my technical skills in observability, automation, and cloud infrastructure while continuing to expand my expertise in site reliability engineering.",
+  // "summary": "I am a committed Software Engineer with over 4 years of experience, specialising in building scalable, high-performance systems with a focus on DevOps, automation, and site reliability engineering (SRE). My technical expertise includes JavaScript, Go, Terraform, and AWS, where I have contributed to developing cloud-native solutions, infrastructure automation, and observability frameworks that enhance system efficiency and reliability. At ByteDance, I work as both a Software Engineer and aPaaS consultant, collaborating closely with technical and non-technical stakeholders to design, build, and optimise internal HR, legal, and finance platforms. My experience spans CI/CD pipeline automation, cloud infrastructure management, and system observability, where I have leveraged Grafana to monitor system health and proactively resolve performance bottlenecks. While I may not have direct hands-on experience with Prometheus or ELK, I am highly proactive in learning and mastering new technologies, always striving to bridge knowledge gaps through hands-on experimentation and self-learning. My past experience in Terraform and infrastructure setup has equipped me with the ability to work with scalable architectures and automated workflows, ensuring operational excellence. I thrive in fast-paced, high-pressure environments where quick decision-making and troubleshooting are essential, and I am eager to bring my problem-solving mindset, adaptability, and passion for automation to Equinix, contributing to reliable, resilient, and efficient platform operations.",
+  // "summary": "I am a dedicated Software Engineer with over four years of experience in building scalable, high-performance systems. My expertise spans across JavaScript, Elixir, and cloud technologies, where I have contributed to developing solutions that enhance operational efficiency and reliability. At ByteDance, I work closely with cross-functional teams on internal HR, legal, and finance projects, translating complex business requirements into practical, scalable solutions. While my primary experience lies in full-stack development and system optimisation, I have always been keen on expanding my skill set. I previously completed an ML-related course at MIT IDSS, equipping me with foundational knowledge in machine learning principles. If this role provides the opportunity to deepen my expertise in MLOps, I am eager to put in the extra effort to bridge any gaps, ensuring I can contribute effectively. My proactive approach to learning, combined with my problem-solving mindset and ability to adapt quickly, makes me confident that I can take on new challenges and grow within this role. I look forward to the possibility of leveraging my existing expertise while upskilling in MLOps to drive impactful solutions at Apple.",
+  // "summary": "I am a dedicated Software Engineer with over four years of experience in building scalable and high-performance systems, and I am eager to expand my expertise into machine learning and AI. I have acquired a strong foundation in ML concepts through an MIT IDSS course, which has equipped me with fundamental knowledge in data processing, model development, and optimisation. While my hands-on experience in image-based AI is still growing, I am deeply committed to continuous learning and willing to put in extra effort to bridge any gaps. At ByteDance, I have worked extensively on internal HR, legal, and finance projects, collaborating closely with cross-functional teams to design and implement scalable solutions. My experience in backend development, cloud infrastructure, and optimisation gives me a strong technical foundation to contribute effectively to Apple's ML engineering team. I am particularly interested in applying my problem-solving skills to real-world challenges in computer vision, image classification, and object detection. I am confident that my proactive learning mindset, technical expertise, and ability to work in fast-paced environments make me a strong candidate for this role, and I look forward to the opportunity to grow within a team that values innovation and excellence.",
   "technical_skills": [
     {
       "category": "Programming Languages",
-      "skills": ["Elixir", "JavaScript", "Java", "Bash", "PHP", "Python", "TypeScript", "Dart", "Kotlin"]
+      "skills": ["JavaScript", "Python", "Elixir", "Bash", "Java", "PHP", "TypeScript", "Dart", "Kotlin"]
     },
     {
       "category": "Frameworks & Libraries",
@@ -32,6 +39,10 @@ const RESUME_DATA = {
     {
       "category": "Infrastructure & Configuration",
       "skills": ["Terraform", "YAML", "JSON", "Markdown"]
+    },
+    {
+      "category": "Other Tools & Technologies",
+      "skills": ["macOS", "Linux", "Git", "Docker", "Nginx", "Apache", "AWS", "Firebase", "TablePlus", "Workbench", "Grafana", "FFmpeg", "ImageMagick", "PostMan", "Figma", "ChatGPT", "Cursor"]
     }
   ],
   "tools_technologies": {
@@ -54,14 +65,11 @@ const RESUME_DATA = {
       "start_date": "December 2023",
       "end_date": "Present",
       "responsibilities": [
-        "Leading and managing full-stack development projects using aPaaS with Node.js and Go, ensuring timely and successful delivery.",
-        "Driving innovation in low-code solutions through the Feishu App Engine, enhancing stakeholder's operational efficiency and scalability across multiple departments in ByteDance.",
-        "Collaborating with cross-functional teams to translate complex technical requirements into effective solutions, significantly reducing development cycle times and increasing stakeholder satisfaction.",
-        "Spearheading and independently managing full-stack development projects, ranging from small internal tools to large-scale applications supporting over 180,000 users, resulting in a measurable reduction in manual processes and operational costs.",
-        "Serving as both the developer and project manager for significant internal projects, ensuring seamless integration and coordination across teams, leading to a documented improvement in project delivery time.",
-        "Handling large datasets and improving performance through the integration of Redis and advanced architectural concepts, optimising data processing and scalability, which has directly impacted application responsiveness and stability.",
-        "Leading requirement gathering, solution proposals, and implementation strategies for internal projects, effectively bridging the gap between stakeholders and development teams, minimising miscommunication-related delays and ensuring alignment with business goals.",
-        "Coordinating with internal R&D teams to integrate and align internal systems with existing ByteDance infrastructures, ensuring smooth operation and consistency, resulting in the successful delivery of projects that met or exceeded expectations."
+        "<b>Developing</b> and <b>managing</b> the full project lifecycle using aPaaS with <b>Node.js</b> and <b>Go</b>, delivering solutions from small internal tools to large-scale applications supporting over <b>180,000 users</b> and reducing manual processes and operational costs.",
+        "<b>Leading requirement gathering</b>, <b>solution proposals</b>, and <b>implementation strategies</b> for internal projects, effectively bridging the gap between stakeholders and development teams.",
+        "<b>Collaborating with cross-functional teams</b>, including engineering, product, and business units, to translate complex technical requirements into scalable, high-impact solutions that align with business goals.",
+        "<b>Driving innovation</b> in low-code solutions via the Feishu App Engine and <b>optimising performance</b> for large-scale datasets using <b>Redis</b> and <b>distributed system architecture</b>, enhancing system responsiveness and stability.",
+        "<b>Leveraging aPaaS</b> to deliver projects at significantly lower costs—achieving project delivery at approximately <b>one-third</b> of traditional R&D development expenses—thereby enhancing cost efficiency and enabling agile innovation."
       ]
     },
     {
@@ -102,32 +110,32 @@ const RESUME_DATA = {
     {
       "title": "Elixir — Phoenix Framework",
       "achievements": [
-        "Revolutionised a client's workflow by engineering an advanced file management system with a nuanced search algorithm (AWS Textract integration, Levenshtein & Lemmatisation), achieving a complete shift from manual to automated processes and leading to a 100% productivity boost",
-        "Developed and scaled a responsive web application with an integrated RESTful API, utilising product identification API, FFmpeg and ImageMagick, resulting in a 60% efficiency increase in business operations",
-        "Architected a comprehensive internal company platform, encompassing performance reviews, leave and remote work scheduling, sales pipelines, and room booking utilities. Seamlessly integrated a WhatsApp bot and an internal activity dashboard, collectively boosting organisational efficiency and streamlining employee workflows",
-        "Streamlined the room booking process for a top-ranked engineering university in Asia by architecting a responsive and intuitive system, resulting in a marked elevation of user efficiency and user satisfaction rates"
+        "Revolutionised a client's workflow by engineering an advanced file management system with a nuanced search algorithm <b>(AWS Textract integration, Levenshtein & Lemmatisation)</b>, achieving a complete shift from manual to automated processes and leading to a 100% productivity boost",
+        "Developed and scaled a responsive web application with an integrated <b>RESTful API</b>, utilising product identification API, <b>FFmpeg</b> and <b>ImageMagick</b>, resulting in a 60% efficiency increase in business operations",
+        "<b>Architected a comprehensive internal company platform</b>, encompassing performance reviews, leave and remote work scheduling, sales pipelines, and room booking utilities. Seamlessly integrated a <b>WhatsApp bot</b> and an internal activity dashboard, collectively boosting organisational efficiency and streamlining employee workflows",
+        "Streamlined the <b>room booking process</b> for a top-ranked engineering university in Asia by architecting a responsive and intuitive system, resulting in a marked elevation of user efficiency and user satisfaction rates"
       ]
     },
     {
       "title": "PHP — Yii2 Framework",
       "achievements": [
-        "Innovated a multi-faceted web platform amalgamating messaging, friendships, and payments, thereby enhancing user interaction and financial transactions within the ecosystem",
-        "Conceived and executed a robust training platform with dynamic scheduling and traceable lesson logistics, substantially improving training efficiency and oversight capabilities",
-        "Pioneered a cutting-edge digital dashboard that provides real-time data analytics, specifically focused on agricultural operations like farm analytics, leading to informed decision-making for stakeholders",
-        "Engineered and launched a game engine featuring seamless Zoom integration, winning significant client acclaim"
+        "Innovated a multi-faceted web platform amalgamating <b>messaging, friendships, and payments</b>, thereby enhancing user interaction and financial transactions within the ecosystem",
+        "Conceived and executed a robust training platform with dynamic <b>scheduling and traceable lesson logistics</b>, substantially improving training efficiency and oversight capabilities",
+        "Pioneered a cutting-edge digital dashboard that provides <b>real-time data analytics</b>, specifically focused on agricultural operations like farm analytics, leading to informed decision-making for stakeholders",
+        "Engineered and launched a game engine featuring seamless <b>Zoom integration</b>, winning significant client acclaim"
       ]
     },
     {
       "title": "TypeScript",
       "achievements": [
-        "Designed and developed a real-time web-based game using TypeScript and Socket.IO, significantly boosting organisational cohesion and promoting team collaboration"
+        "Designed and developed a <b>real-time web-based game</b> using <b>TypeScript</b> and <b>Socket.IO</b>, significantly boosting organisational cohesion and promoting team collaboration"
       ]
     },
     {
       "title": "Dart — Flutter",
       "achievements": [
-        "Orchestrated a comprehensive mobile application centered around farmers, seamlessly integrating task management with IoT-enabled animal health analytics, thereby revolutionising agricultural practices",
-        "Conceived and launched an engaging sports prediction mobile application in Dart (Flutter), leading to a remarkable 50% increase in user adoption and engagement rates within a short timeframe"
+        "Orchestrated a comprehensive mobile application centered around farmers, seamlessly integrating task management with <b>IoT-enabled animal health analytics</b>, thereby revolutionising agricultural practices",
+        "Conceived and launched an engaging sports prediction mobile application in <b>Dart (Flutter)</b>, leading to a remarkable 50% increase in user adoption and engagement rates within a short timeframe"
       ]
     },
     {
@@ -144,13 +152,21 @@ const RESUME_DATA = {
   ],
   "education": [
     {
+      "institution": "National University of Singapore (NUS)",
+      "degree": "Bachelor of Information Technology",
+      "start_date": "(Upcoming) August 2025",
+      "end_date": "2030",
+      "details": [
+      ]
+    },
+    {
       "institution": "Singapore Polytechnic",
       "degree": "Diploma in Information Technology",
       "start_date": "April 2018",
       "end_date": "May 2021",
       "details": [
-        "Specialised in UI/UX Design and Data Structures & Algorithms, establishing a strong academic foundation that equips me with key competencies essential for advanced software engineering roles",
-        "Earned 2nd-place as the Full-Stack Team Leader in a team of five for a Java-based final year project for SDC",
+        "Specialised in <b>UI/UX Design</b> and <b>Data Structures & Algorithms</b>, establishing a strong academic foundation that equips me with key competencies essential for advanced software engineering roles",
+        "Served as a <b>full-stack developer</b> on a five-member team to design and deliver a comprehensive Java-based final year project for Sentosa Development Corporation",
         "Served as an integral member of the SP Arts Council, where I produced design assets like posters and brochures, bolstering event visibility and engagement utilising Adobe Illustrator and Photoshop",
         "Accumulated multiple accolades as a standout member of SP Vocal Talents at both local and international stages",
         "Consistently honoured for contributing significantly to the success of SP Vocal Talents across various competitions"
@@ -169,15 +185,15 @@ const RESUME_DATA = {
       "issue_date": "January 2024",
       "credential_id": "PYCYNIRT",
       "link": "https://www.linkedin.com/in/jinghuipang/",
-      "desc": "Completed an advanced course on Data Science and Machine Learning, focusing on transforming complex datasets into actionable insights. This certification highlights my ability to leverage machine learning techniques to make data-driven decisions, essential for optimising business processes."
+      "desc": "Completed an advanced course on <b>Data Science and Machine Learning</b>, focusing on transforming complex datasets into actionable insights. This certification highlights my ability to leverage machine learning techniques to make data-driven decisions, essential for optimising business processes."
     },
     {
       "title": "3rd Place in Final Year Project: Digital Service and Incentive Platform",
-      "issuer": "Sentosa Development Corporation",
+      "issuer": "Sentosa Development Corporation (SDC)",
       "issue_date": "January 2018",
-      "credential_id": "",
+      "credential_id": null,
       "link": "https://www.linkedin.com/in/jinghuipang/",
-      "desc": "Achieved 3rd place for a project that was recognised among the top 10 in the Singapore Polytechnic 2018 cohort. The project involved designing a comprehensive digital platform for the Sentosa Development Corporation, showcasing my ability to lead and deliver innovative solutions in a competitive environment."
+      "desc": "Achieved <b>3rd place</b> for a project that was recognised among the top 10 in the Singapore Polytechnic 2018 cohort. This project involved designing a comprehensive digital platform for the company, effectively demonstrating my expertise in requirement gathering, leadership, and the delivery of innovative solutions in a competitive environment."
     }
   ],
   "volunteering": [
