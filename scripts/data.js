@@ -30,27 +30,90 @@ const RESUME_DATA = {
   "technical_skills": [
     {
       "category": "Programming Languages",
-      "skills": ["JavaScript", "Python", "Elixir", "Bash", "Java", "PHP", "TypeScript", "Dart", "Kotlin"]
+      "skills": [
+        "JavaScript", "Python", "Bash",
+        "TypeScript",
+        "Elixir",
+        "Java", "PHP",
+        "Dart", "Kotlin",
+      ]
     },
     {
       "category": "Frameworks & Libraries",
-      "skills": ["Node.js","Phoenix", "LiveView", "Yii2", "React", "Flutter", "Tailwind CSS", "Vue", "jQuery"]
-    },
-    {
-      "category": "Databases",
-      "skills": ["MySQL", "PostgreSQL", "Firebase Realtime Database", "DynamoDB", "MariaDB"]
+      "skills": [
+        "Node.js",
+        "Phoenix", "LiveView", "Yii2", "React", "Flutter", "Tailwind CSS", "Vue", "jQuery",
+      ]
     },
     {
       "category": "Web Technologies",
-      "skills": ["SCSS", "CSS", "HTML5"]
+      "skills": [
+        "HTML5",
+        "SCSS",
+        "CSS",
+      ]
+    },
+    {
+      "category": "Databases & Management",
+      "skills": [
+        "MySQL", "PostgreSQL", "Firebase Realtime Database", "DynamoDB", "MariaDB",
+        "TablePlus", "MySQL Workbench",
+      ]
     },
     {
       "category": "Infrastructure & Configuration",
-      "skills": ["Terraform", "YAML", "JSON", "Markdown"]
+      "skills": [
+        "Markdown",
+        "JSON",
+        "YAML",
+        "Terraform",
+      ]
     },
     {
-      "category": "Other Tools & Technologies",
-      "skills": ["macOS", "Linux", "Git", "Vim", "Docker", "Nginx", "Apache", "AWS", "Firebase", "TablePlus", "MySQL Workbench", "Grafana", "FFmpeg", "ImageMagick", "PostMan", "ChatGPT", "Visual Studio Code", "Android Studio", "NetBeans", "Cursor", "Android Studio", "NetBeans", "Figma", "AdobeXD"]
+      "category": "DevOps & Infrastructure",
+      "skills": [
+        "AWS",
+        "Docker",
+        "Nginx",
+        "Apache",
+        "Firebase",
+        "Grafana",
+      ]
+    },
+    {
+      "category": "Version Control & API Tools",
+      "skills": [
+        "Git",
+        "PostMan"
+      ]
+    },
+    {
+      "category": "IDEs & Editors",
+      "skills": [
+        "Vim",
+        "Cursor",
+        "Trae",
+        "Visual Studio Code",
+        "Android Studio",
+        "NetBeans",
+      ]
+    },
+    {
+      "category": "Operating Systems",
+      "skills": [
+        "macOS",
+        "Linux"
+      ]
+    },
+    {
+      "category": "Other",
+      "skills": [
+        "FFmpeg",
+        "ImageMagick",
+        "Figma",
+        "AdobeXD",
+        "ChatGPT"
+      ]
     }
   ],
   "tools_technologies": {
