@@ -179,20 +179,16 @@ body p {
 #resume-main section#summary-section p {
   text-align: justify;
 }
-@media print {
-  #resume-main section#education-section {
-    -moz-column-break-before: page;
-         break-before: page;
-    /* Modern browsers */
-    page-break-before: always;
-    /* Older browsers */
-  }
-}
 #resume-main section#skills-section .dynamic-container .li-skill .skill-type-title {
   font-weight: 500;
 }
 #resume-main section#certifications-section .single-cert:not(:first-child) .cert-header {
   margin: 1.5rem 0 0.5rem;
+}
+#resume-main section .single-job,
+#resume-main section .single-project,
+#resume-main section .single-cert {
+  margin: 0 0 1.3rem;
 }
 #resume-main section .single-job:not(:last-child) ul,
 #resume-main section .single-project:not(:last-child) ul {
@@ -209,7 +205,8 @@ body p {
 @media print {
   @page {}
   html {
-    font-size: 40%; /* Reducing the base font size by 90% */
+    font-size: 40%;
+    /* Reducing the base font size by 90% */
   }
   body {
     padding: 0.5rem 1.5rem;
@@ -224,5 +221,12 @@ body p {
   section .section-secondary-header p {
     font-size: 1.3rem;
     white-space: nowrap;
+  }
+  #projects-section {
+    -moz-column-break-before: page;
+         break-before: page;
+    /* Modern browsers */
+    page-break-before: always;
+    /* Older browsers */
   }
 }

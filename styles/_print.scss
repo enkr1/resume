@@ -5,7 +5,8 @@
   }
 
   html {
-    font-size: 40%; /* Reducing the base font size by 90% */
+    font-size: 40%;
+    /* Reducing the base font size by 90% */
   }
 
   header,
@@ -26,10 +27,18 @@
       h3 {
         font-size: 1.5rem;
       }
+
       p {
         font-size: 1.3rem;
         white-space: nowrap;
       }
     }
+  }
+
+  #projects-section {
+    break-before: page;
+    /* Modern browsers */
+    page-break-before: always;
+    /* Older browsers */
   }
 }

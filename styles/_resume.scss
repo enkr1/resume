@@ -74,14 +74,7 @@ $ul-padding-1: 1.8rem;
       }
     }
 
-    &#education-section {
-      @media print {
-        break-before: page;
-        /* Modern browsers */
-        page-break-before: always;
-        /* Older browsers */
-      }
-    }
+    &#education-section {}
 
     /* Skills Section */
     &#skills-section {
@@ -109,6 +102,11 @@ $ul-padding-1: 1.8rem;
       }
     }
 
+    .single-job,
+    .single-project,
+    .single-cert{
+      margin: 0 0 1.3rem;
+    }
 
     .single-job:not(:last-child),
     .single-project:not(:last-child) {
