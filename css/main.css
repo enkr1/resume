@@ -143,7 +143,7 @@ body p {
   font-size: 1.6rem;
 }
 #resume-main section ul {
-  padding: 0 0 0rem 1rem;
+  padding: 0 0 0rem 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -192,7 +192,7 @@ body p {
 }
 #resume-main section .single-job:not(:last-child) ul,
 #resume-main section .single-project:not(:last-child) ul {
-  padding: 0 0 1.3rem 1rem;
+  padding: 0 0 1.3rem 2.5rem;
 }
 
 #for-hr-section h3 {
