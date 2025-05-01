@@ -1,10 +1,13 @@
 $ul-padding-1: 2.5rem;
 
 #resume-main {
+  b {
+    font-weight: 600;
+  }
 
   // Section Styles
   section {
-    margin: 0 0 1.8rem; // Use rem for consistency with other units
+    margin: 0 0 1.5rem; // Use rem for consistency with other units
 
     >div {
       margin: 0 0 1.3rem;

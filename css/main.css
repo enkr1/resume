@@ -121,8 +121,11 @@ body p {
   }
 }
 
+#resume-main b {
+  font-weight: 600;
+}
 #resume-main section {
-  margin: 0 0 1.8rem;
+  margin: 0 0 1.5rem;
   /* Skills Section */
 }
 #resume-main section > div {
