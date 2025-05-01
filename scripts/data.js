@@ -215,7 +215,7 @@ const RESUME_DATA = {
   ],
   "education": [
     {
-      "institution": "National University of Singapore (NUS)",
+      "institution": "National University of Singapore",
       "degree": "Bachelor of Information Technology",
       "start_date": "(Upcoming) July 2025",
       "end_date": "2030",
