@@ -19,10 +19,3 @@
     // display: none; // JS handles disabling, but this can be a fallback
   }
 }
-
-// Hide default cursor on non-touch devices when aurora is active
-@media (hover: hover) and (pointer: fine) {
-  body.aurora-active {
-    cursor: none;
-  }
-}

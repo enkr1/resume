@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const auroraContainer = document.createElement('div');
   auroraContainer.id = 'aurora-background-container';
   body.insertBefore(auroraContainer, body.firstChild); // Insert as the first child of body
-  body.classList.add('aurora-active'); // Add class to body to hide cursor
+
 
   let globalAnimationFrameId = null;
   const globalAnimate = () => {
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Clean up on window unload (optional, good practice)
   // Clean up on window unload (optional, good practice)
   window.addEventListener('beforeunload', () => {
-    body.classList.remove('aurora-active'); // Remove class on cleanup
+
     if (globalAnimationFrameId) cancelAnimationFrame(globalAnimationFrameId);
     if (window.pos1 && window.pos1.cleanup) window.pos1.cleanup();
     if (window.pos2 && window.pos2.cleanup) window.pos2.cleanup();
@@ -116,9 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // A single global mousemove listener that updates all targets would be more efficient.
   });
 
-  // Also remove the class if the effect is disabled for touch devices right at the start
-  if ('ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0) {
-    body.classList.remove('aurora-active');
-  }
+
 
 });
