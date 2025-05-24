@@ -1,6 +1,14 @@
 $ul-padding-1: 2.5rem;
 
 #resume-main {
+  // Default styles for #resume-main (if any, applicable to all screen sizes)
+
+  @media screen and (min-width: 769px) { // Apply max-width only for desktop screens
+    max-width: 80ch; // Set a max-width for better readability on wider screens
+    margin-left: auto; // Center the content
+    margin-right: auto; // Center the content
+  }
+
   b {
     font-weight: 600;
   }

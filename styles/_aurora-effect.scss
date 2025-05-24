@@ -1,0 +1,28 @@
+// Styles for the aurora background effect
+
+#aurora-background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; // Allows clicks to pass through to elements underneath
+  z-index: -1; // Place it behind all other content
+  overflow: hidden; // Prevent scrollbars if gradients go off-screen briefly
+  background-color: transparent; // Make transparent to show page background
+
+}
+
+// Ensure it's hidden on touch devices if the JS also disables it
+@media (hover: none) and (pointer: coarse) {
+  #aurora-background-container {
+    // display: none; // JS handles disabling, but this can be a fallback
+  }
+}
+
+// Hide default cursor on non-touch devices when aurora is active
+@media (hover: hover) and (pointer: fine) {
+  body.aurora-active {
+    cursor: none;
+  }
+}

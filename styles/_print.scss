@@ -35,6 +35,10 @@
     }
   }
 
+  #resume-main {
+    max-width: none; /* Override desktop max-width for printing */
+  }
+
   #projects-section {
     break-before: page;
     /* Modern browsers */

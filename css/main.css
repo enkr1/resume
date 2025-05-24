@@ -121,6 +121,13 @@ body p {
   }
 }
 
+@media screen and (min-width: 769px) {
+  #resume-main {
+    max-width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 #resume-main b {
   font-weight: 600;
 }
@@ -198,6 +205,82 @@ body p {
   padding: 0 0 1.3rem 2.5rem;
 }
 
+#fab-download-pdf-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.fab-button {
+  background-color: #FF0000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease-out;
+  opacity: 0.7;
+}
+.fab-button svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+.fab-button span {
+  display: none;
+  position: absolute;
+  right: 70px;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 1.2rem;
+}
+.fab-button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+.fab-button:hover span {
+  display: inline-block;
+}
+.fab-button:active {
+  transform: scale(0.95);
+}
+
+.fab-loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-left-color: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: fab-spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fab-spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@media print {
+  #fab-download-pdf-container {
+    display: none !important;
+  }
+}
 #for-hr-section h3 {
   color: #CC0000;
   margin: 1.3rem 0 0;
@@ -207,6 +290,23 @@ body p {
   margin: 0.5rem 0 0;
 }
 
+#aurora-background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.aurora-active {
+    cursor: none;
+  }
+}
 #resume-footer {
   text-align: center;
   font-size: 1rem;
@@ -233,6 +333,9 @@ body p {
   section .section-secondary-header p {
     font-size: 1.3rem;
     white-space: nowrap;
+  }
+  #resume-main {
+    max-width: none; /* Override desktop max-width for printing */
   }
   #projects-section {
     -moz-column-break-before: page;
