@@ -227,6 +227,7 @@ body a {
 }
 #resume-main section .single-job,
 #resume-main section .single-project,
+#resume-main section .single-education,
 #resume-main section .single-cert {
   margin: 0 0 1.3rem;
 }

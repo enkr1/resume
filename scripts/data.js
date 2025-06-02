@@ -14,11 +14,13 @@ const RESUME_DATA = {
   // "summary": "I am a dedicated Software Engineer with over four years of hands-on experience designing and automating scalable, high-performance systems. My background spans full-stack development, infrastructure automation, and aPaaS consulting—leveraging technologies such as JavaScript, Elixir, PHP, Python, Go, and AWS—to deliver solutions that optimise operational efficiency and reduce costs. At ByteDance, I have contributed to transformative internal projects, including a large-scale business insurance platform that supports over 180,000 users, which has honed my ability to adapt quickly, troubleshoot complex challenges, and maintain reliable production environments. Passionate about continuous learning and equipped with ML-related coursework from MIT IDSS, I proactively master emerging technologies to drive innovation. I am also set to commence studies in BIT at NUS in July 2025, further underscoring my commitment to expanding my technical expertise. Whether working independently or as part of a cross-functional team, I thrive in fast-paced, agile settings and consistently deliver impactful, resilient solutions. I am eager to leverage my expertise in automation, cloud infrastructure, CI/CD, and observability to contribute to roles in software engineering and site reliability, ensuring high availability, performance, and operational excellence",
   // 20250502
   summary:
-    "I'm a software engineer who took the unconventional path—diving straight from a diploma into real-world engineering, quickly rising from intern to leader, and now crafting solutions for over <b>180,000 users at ByteDance</b>. With a relentless passion for technology and innovation, I've spent the past four years building impactful, scalable systems using <b>Python, Go, Elixir, JavaScript, and AWS</b>. At Pixium Digital, I didn't just write code; I elevated user experiences, boosted dashboard throughput by 62.5% through concurrency optimisation, and automated deployments so efficiently (Terraform & Docker) that initialisation times dropped by 80%. Currently, at ByteDance, I'm architecting large-scale internal aPaaS solutions—laveraging distributed Redis caches to slash costs by 33% and streamline operations at roughly a third of traditional expenses. I'm committed to never standing still—certified in <b>Machine Learning from MIT-IDSS</b> and gearing up for my <b>part-time BIT at NUS</b>. My journey reflects a continuous upward trajectory driven by curiosity, resilience, and an unwavering commitment to excellence. I thrive in agile, cross-functional teams, and I'm excited to bring my blend of software engineering, infrastructure automation, DevOps, and innovative problem-solving skills to drive operational excellence and create meaningful, lasting impacts wherever I go.",
-  // 20250602
+    "I’m a software engineer who took the unconventional path—diving straight from a diploma into real-world engineering, quickly rising from intern to leader, and now crafting solutions for over <b>180,000 users at ByteDance</b>. With a relentless passion for technology and innovation, I’ve spent the past four years building impactful, scalable systems using <b>Python, Go, Elixir, JavaScript, and AWS</b>. At Pixium Digital, I didn’t just write code; I elevated user experiences, boosted dashboard throughput by 62.5% through concurrency optimisation, and automated deployments so efficiently (Terraform & Docker) that initialisation times dropped by 80%. Currently, at ByteDance, I’m architecting large-scale internal aPaaS solutions—laveraging distributed Redis caches to slash costs by 33% and streamline operations at roughly a third of traditional expenses. I’m committed to never standing still—certified in <b>Machine Learning from MIT-IDSS</b> and gearing up for my <b>part-time BIT at NUS</b>. My journey reflects a continuous upward trajectory driven by curiosity, resilience, and an unwavering commitment to excellence. I thrive in agile, cross-functional teams, and I’m excited to bring my blend of software engineering, infrastructure automation, DevOps, and innovative problem-solving skills to drive operational excellence and create meaningful, lasting impacts wherever I go.",
+  // 20250602 - v1
   summary:
-    "I'm a Full-Stack Software Engineer who chose an uncommon path—turning my polytechnic diploma directly into real-world, enterprise-grade engineering experience. I rapidly progressed from internship to tech leadership, now architecting aPaaS platforms at ByteDance for over <b>180,000 global users</b>. My technology-driven passion has consistently translated into measurable business impacts: At Pixium Digital, I optimised web performance through targeted concurrency enhancements, boosting throughput by <b>62.5%</b>, and leveraged <b>Terraform and Docker</b> to automate environments, cutting deployment initialisation times by <b>80%</b>. Currently at ByteDance, I’m pioneering distributed backend solutions—using <b>Redis caches</b> and microservice architectures to achieve approximately <b>67% cost savings</b> versus traditional methods. Certified in <b>Machine Learning (MIT-IDSS)</b> and soon pursuing a part-time BIT degree at NUS, my journey is defined by relentless curiosity, agile innovation, and a commitment to operational excellence. I thrive at the intersection of software engineering, cloud automation, DevOps practices, and team leadership, and I'm eager to tackle complex challenges to deliver resilient, high-impact software solutions.",
-
+    "I’m a software engineer who thrives at the intersection of scalable system design, high-impact infrastructure automation, and business-driven innovation. My non-traditional journey—leveraging a Polytechnic diploma directly into enterprise-grade engineering at ByteDance and Pixium Digital—has rapidly propelled me from internship to tech leadership, now architecting aPaaS platforms at ByteDance for over <b>180,000 global users</b>. My technology-driven passion has consistently translated into measurable business impacts: At Pixium Digital, I optimised web performance through targeted concurrency enhancements, boosting throughput by <b>62.5%</b>, and leveraged <b>Terraform and Docker</b> to automate environments, cutting deployment initialisation times by <b>80%</b>. Currently at ByteDance, I’m pioneering distributed backend solutions—using <b>Redis caches</b> and microservice architectures to achieve approximately <b>67% cost savings</b> versus traditional methods. Certified in <b>Machine Learning (MIT-IDSS)</b> and soon pursuing a part-time BIT degree at NUS, my journey is defined by relentless curiosity, agile innovation, and a commitment to operational excellence. I thrive at the intersection of software engineering, cloud automation, DevOps practices, and team leadership, and I’m eager to tackle complex challenges to deliver resilient, high-impact software solutions.",
+  // 20250602 - v2
+  summary:
+    "I’m a software engineer with a track record of rapidly transforming innovative ideas into scalable, impactful business solutions—taking an unconventional leap directly from Polytechnic graduate to enterprise engineering leadership at ByteDance and Pixium Digital. I architect robust backend systems on ByteDance’s aPaaS platform, empowering over <b>180,000 global users</b> with reliable, cost-effective, and high-performance applications. At Pixium Digital, my drive for technical excellence led to strategic concurrency enhancements, boosting critical web application throughput by <b>62.5%</b>, while my expertise in <b>Terraform and Docker</b> dramatically streamlined infrastructure automation—reducing deployment initialisation by <b>80%</b>. Currently at ByteDance, I leverage distributed microservice architectures and sophisticated <b>Redis caching</b> techniques to achieve remarkable cost savings of approximately <b>67%</b> compared to traditional development approaches. Continuously evolving, I’m certified in <b>Machine Learning (MIT-IDSS)</b> and will soon begin my <b>part-time BIT degree at NUS</b>, underscoring my relentless curiosity and lifelong commitment to learning. I excel at bridging software engineering, cloud infrastructure automation (<b>AWS, Terraform, Docker</b>), DevOps methodologies, and cross-functional team leadership—positioned to confidently deliver innovative, resilient, and impactful software solutions to tackle complex business challenges.",
   // TODO: https://www.google.com/about/careers/applications/apply?jobId=CiUAL2Fckdhgl2iAtK-ycrKPLYcOYyovf_8AcnqdnYaf0guwCRDQEjsAgOFyA8r8TB8aeiZ7rp1ncCVZ-auyzCrJ6Ov37qqXqd2T0jXYqcx3Lw_bDqyhp6VKtxaeAzCYzyVSjg%3D%3D_V2&loc=SG&title=Product+Solutions+Engineer&src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract
   // "summary": "I am incredibly excited to apply for the Product Solutions Engineer role within Google Pay’s Payments Platform Partner Engineering team—a perfect intersection of my passion for scalable engineering solutions, partner-focused problem-solving, and financial technologies. With over four years of experience delivering high-performance, secure systems at ByteDance and Pixium Digital, I bring strong expertise in JavaScript, Elixir, PHP, Python, and Go, coupled with deep hands-on experience in API development, system troubleshooting, and cloud infrastructure automation using Terraform and AWS CDK. Having worked across backend integrations, client-side workflows, and distributed systems, I excel at translating complex technical challenges into scalable solutions for both internal teams and external partners. My background includes driving tooling and automation initiatives, enhancing operational workflows, and collaborating cross-functionally to ensure seamless integration and system resilience. I am particularly eager to bring this blend of technical depth and partner-centric mindset to help Google Pay scale its payments ecosystem, delivering secure, seamless, and impactful experiences globally",
   work_history: [
@@ -35,12 +37,12 @@ const RESUME_DATA = {
         // "<b>Optimise operational efficiency and reduce manual workloads</b>, achieving project delivery at approximately one-third the cost of traditional software development methods—enabling agile innovation across teams",
         // "<b>Contribute actively to internal knowledge transfer and trainings</b>, mentoring peers on low-code best practices, technical solutioning, and scalable system design"
         // 20250602
-        "<b>Architect and deliver scalable aPaaS solutions</b> on ByteDance’s internal Feishu App Engine, using <b>Node.js, Go, and Redis</b>, providing robust support for mission-critical enterprise applications (HR, finance, insurance, legal) with a user base exceeding <b>180,000 employees globally</b>.",
-        "<b>Drive requirement analysis and system design</b>, serving as a critical liaison between business stakeholders and technical teams; translating complex business requirements into clearly-defined, scalable software solutions (e.g., Human Capital Management (HCM), legal workflows, operational automation).",
-        "<b>Design and deploy high-performance backend services</b> leveraging distributed architecture principles and <b>Redis-based caching</b>, achieving substantial latency reductions and enhanced stability for large-scale transactional operations.",
-        "<b>Pioneer reusable low-code modules and frameworks</b>, facilitating rapid feature rollout, seamless integration, and substantial efficiency gains across internal projects, significantly accelerating project delivery timelines.",
-        "<b>Optimise operational workflows and reduce manual interventions</b>, implementing innovative low-code solutions that achieved project delivery at nearly <b>one-third of traditional software development costs</b>, fostering an environment of agile innovation and significant cost-efficiency.",
-        "<b>Lead internal training and knowledge-sharing initiatives</b>, mentoring peers and promoting best practices in low-code development, technical architecture, and software engineering excellence, directly enhancing team capability and productivity.",
+        "<b>Architect and deliver scalable aPaaS solutions</b> on ByteDance’s internal Feishu App Engine, using <b>Node.js, Go, and Redis</b>, providing robust support for mission-critical enterprise applications (HR, finance, insurance, legal) with a user base exceeding <b>180,000 employees</b> in China",
+        "<b>Drive requirement analysis and system design</b>, serving as a critical liaison between business stakeholders and technical teams; translating complex business requirements into clearly-defined, scalable software solutions (e.g., Human Capital Management (HCM), legal workflows, operational automation)",
+        "<b>Design and deploy high-performance backend services</b> leveraging distributed architecture principles and <b>Redis-based caching</b>, achieving substantial latency reductions and enhanced stability for large-scale transactional operations",
+        "<b>Pioneer reusable low-code modules and frameworks</b>, facilitating rapid feature rollout, seamless integration, and substantial efficiency gains across internal projects, significantly accelerating project delivery timelines",
+        "<b>Optimise operational workflows and reduce manual interventions</b>, implementing innovative low-code solutions that achieved project delivery at nearly <b>one-third of traditional software development costs</b>, fostering an environment of agile innovation and significant cost-efficiency",
+        "<b>Lead internal training and knowledge-sharing initiatives</b>, mentoring junior engineers and promoting best practices in low-code development, technical architecture, and software engineering excellence, directly improving overall team effectiveness and project delivery timeliness",
       ],
     },
     {
@@ -49,16 +51,16 @@ const RESUME_DATA = {
       start_date: "March 2021",
       end_date: "December 2023",
       responsibilities: [
-        "Spearheaded web application projects, driving both the strategic direction and hands-on execution",
-        "Developed robust web applications using Elixir, PHP, JS/TS, significantly improving UX and system performance",
+        "<b>Led full-stack projects</b> in Elixir/Phoenix, JS/TS/React, PHP/Yii2 applications",
+        "<b>Automated deployment pipelines using Terraform</b>, accelerating delivery timelines (80% faster initialisation)",
+        // "Developed robust web applications using Elixir, PHP, JS/TS, significantly improving UX and system performance",
+        "<b>Orchestrated a Docker-based environment</b>, leveraging PHP, Nginx & PostgreSQL to achieve operational excellence",
         "Architected advanced data structures and schemas to ensure high levels of data integrity and operational efficiency",
         "Optimised MySQL and PostgreSQL queries, achieving a 62.5% boost in a complex analytics dashboard speed",
-        "Orchestrated a Docker-based environment, leveraging PHP, Nginx & PostgreSQL to achieve operational excellence",
-        "Automated deployments with Terraform, slashing initialisation times by 80% in a DevOps setting",
         "Crafted comprehensive technical documentation and user guides, benefiting both internal teams and the clients",
         "Achieved an 80% client satisfaction rate, leading to consistently successful deliveries and securing repeat contracts",
-        "Mentored junior engineers, focusing on the best coding practices and enhancing their contributions to projects",
         "Managed User Acceptance Testing (UAT) protocols to align products with client specs and quality benchmarks",
+        "Mentored junior engineers, focusing on the best coding practices and enhancing their contributions to projects",
       ],
     },
     {
@@ -67,8 +69,8 @@ const RESUME_DATA = {
       start_date: "September 2020",
       end_date: "February 2021",
       responsibilities: [
-        "Engineered robust web and mobile applications in a Docker-optimised setting, resulting in a measurable improvement in system efficiency and contributing to client retention for recurring contracts",
-        "Actively collaborated with teammates on a Flutter-based mobile application and shared responsibilities in both mobile development and backend API integration, collectively exceeding client expectations",
+        "<b>Engineered robust web and mobile applications</b> in a Docker-optimised setting, resulting in a measurable improvement in system efficiency and contributing to client retention for recurring contracts",
+        "<b>Actively collaborated with teammates on a Flutter</b>-based mobile application and shared responsibilities in both mobile development and backend API integration, collectively exceeding client expectations",
         "Authored, executed, and rigorously tested UAT protocols and API test cases, effectively serving as the quality assurance agent to confirm alignment with client specifications and maintain high product quality",
         "Produced and updated technical documentation, enhancing project efficiency and team collaboration",
         "Designed efficient data structures and model diagrams to ensure data integrity in relational application schemas",
@@ -81,7 +83,7 @@ const RESUME_DATA = {
     {
       title: "Elixir — Phoenix Framework",
       achievements: [
-        "Revolutionised a client's workflow by engineering an advanced file management system with a nuanced search algorithm <b>(AWS Textract integration, Levenshtein & Lemmatisation)</b>, achieving a complete shift from manual to automated processes and leading to a 100% productivity boost",
+        "Revolutionised a client’s workflow by engineering an advanced file management system with a nuanced search algorithm <b>(AWS Textract integration, Levenshtein & Lemmatisation)</b>, achieving a complete shift from manual to automated processes and leading to a 80% productivity boost",
         "Developed and scaled a responsive web application with an integrated <b>RESTful API</b>, utilising product identification API, <b>FFmpeg</b> and <b>ImageMagick</b>, resulting in a 60% efficiency increase in business operations",
         "<b>Architected a comprehensive internal company platform</b>, encompassing performance reviews, leave and remote work scheduling, sales pipelines, and room booking utilities. Seamlessly integrated a <b>WhatsApp bot</b> and an internal activity dashboard, collectively boosting organisational efficiency and streamlining employee workflows",
         "Streamlined the <b>room booking process</b> for a top-ranked engineering university in Asia by architecting a responsive and intuitive system, resulting in a marked elevation of user efficiency and user satisfaction rates",
@@ -125,9 +127,11 @@ const RESUME_DATA = {
     {
       institution: "National University of Singapore",
       degree: "Bachelor of Information Technology",
-      start_date: "(Upcoming) July 2025",
+      start_date: "July 2025",
       end_date: "2030",
-      details: [],
+      details: [
+        "Upcoming academic advancement highlighting continued investment in deepening my technical foundation",
+      ],
     },
     {
       institution: "Singapore Polytechnic",
@@ -141,7 +145,7 @@ const RESUME_DATA = {
         // "Accumulated multiple accolades as a standout member of SP Vocal Talents at both local and international stages",
         // "Consistently honoured for contributing significantly to the success of SP Vocal Talents across various competitions"
         "Specialised in <b>UI/UX Design</b> and <b>Data Structures & Algorithms</b>, building strong foundations for software engineering",
-        "Delivered a Java-based full-stack final-year project for Sentosa Development Corporation in a collaborative five-member team",
+        "Delivered a <b>Java-based full-stack final-year project</b> for Sentosa Development Corporation in a collaborative five-member team",
         "Created promotional design assets as an active SP Arts Council member, enhancing event engagement using Adobe Illustrator and Photoshop",
         "Recognised consistently as a standout performer with SP Vocal Talents, achieving multiple awards at local and international competitions",
       ],
@@ -168,7 +172,7 @@ const RESUME_DATA = {
       issue_date: "January 2018",
       credential_id: null,
       link: "https://www.linkedin.com/in/jinghuipang/",
-      desc: "Achieved <b>3rd place</b> for a project that was recognised among the top 10 in the Singapore Polytechnic 2018 cohort. This project involved designing a comprehensive digital platform for the company, effectively demonstrating my expertise in requirement gathering, leadership, and the delivery of innovative solutions in a competitive environment",
+      desc: "<b>Achieved 3rd place</b> for a project that was recognised among the top 10 in the Singapore Polytechnic 2018 cohort. This project involved designing a comprehensive digital platform for the company, effectively demonstrating my expertise in requirement gathering, leadership, and the delivery of innovative solutions in a competitive environment",
     },
   ],
   volunteering: [
@@ -185,16 +189,16 @@ const RESUME_DATA = {
     {
       category: "Programming Languages",
       skills: [
+        // "Go",
         "Python",
-        "Go",
-        "Bash",
-        "JavaScript",
-        "TypeScript",
         "Elixir",
+        "JavaScript",
+        "Bash",
+        "TypeScript",
         "Dart",
         "Kotlin",
-        "PHP",
         "Java",
+        "PHP",
       ],
     },
     {
@@ -228,16 +232,24 @@ const RESUME_DATA = {
       ],
     },
     {
-      category: "Infrastructure & Configuration",
-      skills: ["Markdown", "JSON", "YAML", "Terraform"],
+      category: "Infrastructure, DevOps & CI/CD",
+      skills: [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Redis",
+        "Grafana",
+        "Nginx",
+        "Apache",
+        "Git",
+        "GitHub",
+        "Jest",
+        "Postman",
+      ],
     },
     {
-      category: "DevOps & Infrastructure",
-      skills: ["AWS", "Docker", "Nginx", "Apache", "Firebase", "Grafana"],
-    },
-    {
-      category: "Version Control & API Tools",
-      skills: ["Git", "PostMan"],
+      category: "Tools & Data Formats",
+      skills: ["Trello", "Markdown", "JSON", "YAML"],
     },
     {
       category: "IDEs & Editors",
@@ -250,13 +262,23 @@ const RESUME_DATA = {
         "NetBeans",
       ],
     },
+
     {
       category: "Operating Systems",
       skills: ["macOS", "Linux"],
     },
     {
       category: "Other",
-      skills: ["FFmpeg", "ImageMagick", "Figma", "AdobeXD", "ChatGPT"],
+      skills: [
+        "FFmpeg",
+        "ImageMagick",
+        "Figma",
+        "AdobeXD",
+        "ChatGPT",
+        "Doubao",
+        "Claude",
+        "Gemini",
+      ],
     },
   ],
   tools_technologies: {
