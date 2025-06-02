@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     auroraContainer.style.background = `
       radial-gradient(400px circle at ${window.pos1.x.toFixed(2)}px ${window.pos1.y.toFixed(2)}px, rgba(255, 0, 0, 0.3), transparent 70%),
-      radial-gradient(600px circle at ${window.pos2.x.toFixed(2)}px ${window.pos2.y.toFixed(2)}px, rgba(255, 50, 50, 0.25), transparent 70%),
-      radial-gradient(800px circle at ${window.pos3.x.toFixed(2)}px ${window.pos3.y.toFixed(2)}px, rgba(255, 100, 100, 0.2), transparent 70%)
+      radial-gradient(600px circle at ${window.pos2.x.toFixed(2)}px ${window.pos2.y.toFixed(2)}px, rgba(255, 50, 50, 0.2), transparent 70%),
+      radial-gradient(800px circle at ${window.pos3.x.toFixed(2)}px ${window.pos3.y.toFixed(2)}px, rgba(255, 100, 100, 0.1), transparent 70%)
     `;
     globalAnimationFrameId = requestAnimationFrame(globalAnimate);
   };

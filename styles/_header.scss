@@ -10,7 +10,7 @@
     text-align: left;
 
     h1 {
-      font-family: "Playfair Display", serif;
+      // font-family: "Playfair Display", serif;
       font-size: 3rem;
       font-weight: 700;
       margin: 0;
@@ -18,6 +18,7 @@
       span {
         color: $primary-color;
         letter-spacing: .13rem;
+        font-weight: 600; // 增强水性能量
       }
     }
 
@@ -25,6 +26,7 @@
       font-size: 1.6rem;
       font-weight: 500;
       margin: 0 0 .3rem;
+      color: var(--stone-gray);
     }
 
     .sub-headline {

@@ -2,11 +2,22 @@
 @media print {
   @page {
     // margin: 1in;
+
+  }
+
+  #aurora-background-container {
+    display: none;
   }
 
   html {
     font-size: 40%;
+
     /* Reducing the base font size by 90% */
+    h1,
+    h2,
+    h3 {
+      text-shadow: unset !important;
+    }
   }
 
   header,
@@ -36,7 +47,8 @@
   }
 
   #resume-main {
-    max-width: none; /* Override desktop max-width for printing */
+    max-width: none;
+    /* Override desktop max-width for printing */
   }
 
   #projects-section {
@@ -45,4 +57,5 @@
     page-break-before: always;
     /* Older browsers */
   }
+
 }
