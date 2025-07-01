@@ -26,7 +26,7 @@
   }
 
   body {
-    padding: .5rem 1.5rem;
+    padding: .9rem 1.5rem;
     font-size: 1.4rem;
   }
 
@@ -51,6 +51,8 @@
     /* Override desktop max-width for printing */
   }
 
+  // NOTE: This is the new page break.
+  // #education-section {
   #projects-section {
     break-before: page;
     /* Modern browsers */
