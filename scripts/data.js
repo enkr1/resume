@@ -37,7 +37,7 @@ const RESUME_DATA = {
         // "<b>Optimise operational efficiency and reduce manual workloads</b>, achieving project delivery at approximately one-third the cost of traditional software development methods—enabling agile innovation across teams",
         // "<b>Contribute actively to internal knowledge transfer and trainings</b>, mentoring peers on low-code best practices, technical solutioning, and scalable system design"
         // 20250602
-        "<b>Architect and deliver scalable aPaaS solutions</b> on ByteDance’s internal Feishu App Engine, using <b>Node.js, Go, and Redis</b>, providing robust support for mission-critical enterprise applications (HR, finance, insurance, legal) with a user base exceeding <b>180,000 employees</b> in China",
+        "<b>Architect and deliver scalable aPaaS solutions</b> on ByteDance’s internal Feishu App Engine, using <b>Node.js, Go, and Redis</b>, providing robust support for mission-critical enterprise applications (HR, finance, insurance, legal) with a user base exceeding <b>180,000 employees</b> globally",
         "<b>Drive requirement analysis and system design</b>, serving as a critical liaison between business stakeholders and technical teams; translating complex business requirements into clearly-defined, scalable software solutions (e.g., Human Capital Management (HCM), legal workflows, operational automation)",
         "<b>Design and deploy high-performance backend services</b> leveraging distributed architecture principles and <b>Redis-based caching</b>, achieving substantial latency reductions and enhanced stability for large-scale transactional operations",
         "<b>Pioneer reusable low-code modules and frameworks</b>, facilitating rapid feature rollout, seamless integration, and substantial efficiency gains across internal projects, significantly accelerating project delivery timelines",
@@ -59,7 +59,7 @@ const RESUME_DATA = {
         "Optimised MySQL and PostgreSQL queries, achieving a 62.5% boost in a complex analytics dashboard speed",
         "Crafted comprehensive technical documentation and user guides, benefiting both internal teams and the clients",
         "Achieved an 80% client satisfaction rate, leading to consistently successful deliveries and securing repeat contracts",
-        "Managed User Acceptance Testing (UAT) protocols to align products with client specs and quality benchmarks",
+        "Managed User Acceptance Testing (UAT) protocols to align products with specifications and quality benchmarks",
         "Mentored junior engineers, focusing on the best coding practices and enhancing their contributions to projects",
       ],
     },
@@ -130,7 +130,7 @@ const RESUME_DATA = {
       start_date: "July 2025",
       end_date: "2030",
       details: [
-        "Upcoming academic advancement highlighting continued investment in deepening my technical foundation",
+        "Upcoming part-time academic advancement, highlighting continued investment in deepening my technical foundation while actively pursuing professional responsibilities.",
       ],
     },
     {
