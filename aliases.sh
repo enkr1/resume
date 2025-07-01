@@ -4,7 +4,7 @@ current_aliases=$(alias | sort)
 # Define a block for aliases
 add_aliases() {
   alias o="cd /Users/enkr/Personal/resume/scripts && node o.js && cd -"
-  alias gpm='cd /Users/enkr/Personal/resume/ && git add . && git commit -m "[auto-push]" && git push && cd -'
+  alias gpm='/Users/enkr/Personal/resume/git_push.sh'
   alias deploy_resume='o && gpm'
 }
 
