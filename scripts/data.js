@@ -39,7 +39,7 @@ const RESUME_DATA = {
       position: "Software Engineer, Project Manager",
       company: "ByteDance",
       start_date: "December 2023",
-      end_date: "Present",
+      end_date: "July 2025",
       responsibilities: [
         // "<b>Develop and manage end-to-end solutions</b> on ByteDance’s internal aPaaS platform (Feishu App Engine) using <b>Node.js and Go</b>, serving critical enterprise functions including HR, finance, legal, and business insurance, currently supporting over <b>180,000 internal users</b>",
         // "<b>Lead requirement analysis, solution design, and stakeholder communication</b>, effectively bridging business units and engineering teams, translating complex business requirements (e.g., HCM, contracts, OA systems) into scalable and robust technical implementations",
