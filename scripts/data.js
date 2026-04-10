@@ -1,7 +1,7 @@
 const RESUME_DATA = {
   name: "Jing Hui PANG",
   name_cn: "彭竞辉",
-  title: "Building Systems That Scale, Adapt, and Endure | Full-Stack & AI-Driven Engineer | Relentless Learner",
+  title: "Full-Stack Software Engineer",
   location: "Singapore",
   contact: {
     phone: "+65 81287402",
@@ -131,7 +131,7 @@ const RESUME_DATA = {
       start_date: "July 2025",
       end_date: "Present",
       details: [
-`Actively pursuing a <b>part-time BIT degree at NUS</b> to sharpen my technical edge and broaden architectural depth<br/>Driven by a belief that the best engineers never stop learning`
+"Pursuing a <b>part-time BIT degree</b> to deepen technical and architectural expertise"
 
         // "Upcoming <b>part-time</b> academic advancement, highlighting continued investment in deepening my technical knowledge and skills while actively pursuing professional responsibilities",
       ],
@@ -148,9 +148,7 @@ const RESUME_DATA = {
         // "Accumulated multiple accolades as a standout member of SP Vocal Talents at both local and international stages",
         // "Consistently honoured for contributing significantly to the success of SP Vocal Talents across various competitions"
         "Specialised in <b>UI/UX Design</b> and <b>Data Structures & Algorithms</b>, building strong foundations for software engineering",
-        "Delivered a <b>Java-based full-stack final-year project</b> for Sentosa Development Corporation in a collaborative five-member team",
-        "Created promotional design assets as an active SP Arts Council member, enhancing event engagement using Adobe Illustrator and Photoshop",
-        "Recognised consistently as a standout performer with SP Vocal Talents, achieving multiple awards at local and international competitions",
+        "Delivered a <b>Java-based full-stack final-year project</b> for Sentosa Development Corporation (3rd place), in a collaborative five-member team",
       ],
     },
   ],
@@ -166,18 +164,9 @@ const RESUME_DATA = {
       title: "Data Science and Machine Learning: Making Data-Driven Decisions",
       issuer: "MIT Schwarzman College of Computing",
       issue_date: "January 2024",
-      credential_id: "PYCYNIRT",
-      link: "https://www.linkedin.com/in/jinghuipang/",
-      desc: "Completed an advanced course on <b>Data Science and Machine Learning</b>, focusing on transforming complex datasets into actionable insights. This certification highlights my ability to leverage machine learning techniques to make data-driven decisions, essential for optimising business processes",
-    },
-    {
-      title:
-        "3rd Place in Final Year Project: Digital Service and Incentive Platform",
-      issuer: "Sentosa Development Corporation (SDC)",
-      issue_date: "January 2018",
       credential_id: null,
       link: "https://www.linkedin.com/in/jinghuipang/",
-      desc: "<b>Achieved 3rd place</b> for a project that was recognised among the top 10 in the Singapore Polytechnic 2018 cohort. This project involved designing a comprehensive digital platform for the company, effectively demonstrating my expertise in requirement gathering, leadership, and the delivery of innovative solutions in a competitive environment",
+      desc: "",
     },
   ],
   volunteering: [
@@ -208,17 +197,4 @@ const RESUME_DATA = {
       skills: ["Vitest", "Playwright", "Jest", "MSW", "Postman", "Figma"],
     },
   ],
-  tools_technologies: {
-    development_environment: ["VSC", "Vim", "Android Studio", "NetBeans"],
-    operating_systems: ["macOS", "Linux"],
-    build_dependency_management: ["Apache Maven"],
-    version_control: ["Git", "BitBucket"],
-    containerisation: ["Docker"],
-    web_servers: ["Nginx"],
-    cloud_platforms_monitoring: ["Firebase", "AWS", "Grafana"],
-    db_management: ["TablePlus", "Workbench"],
-    design_collaboration: ["Trello", "Figma", "AdobeXD"],
-    api_testing: ["PostMan"],
-    media_other: ["FFmpeg", "ImageMagick"],
-  },
 };

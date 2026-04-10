@@ -126,7 +126,6 @@ body a {
   align-items: end;
 }
 #resume-header #contact a {
-  width: -moz-fit-content;
   width: fit-content;
   text-align: right;
   margin: 0;
@@ -170,7 +169,6 @@ body a {
 }
 #resume-main section {
   margin: 0 0 1.5rem;
-  /* Skills Section */
 }
 #resume-main section > div {
   margin: 0 0 1.3rem;
@@ -218,6 +216,9 @@ body a {
 }
 #resume-main section#summary-section p {
   text-align: justify;
+}
+#resume-main section {
+  /* Skills Section */
 }
 #resume-main section#skills-section .dynamic-container .li-skill .skill-type-title {
   font-weight: 500;
@@ -356,7 +357,7 @@ body a {
     text-shadow: unset !important;
   }
   body {
-    padding: 0.9rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1.4rem;
   }
   section {
@@ -371,10 +372,14 @@ body a {
   }
   #resume-main {
     max-width: none;
-    /* Override desktop max-width for printing */
+  }
+  #resume-main section {
+    margin-bottom: 0.8rem;
   }
   .single-education {
     break-inside: avoid;
     page-break-inside: avoid;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
