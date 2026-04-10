@@ -71,35 +71,24 @@ const RESUME_DATA = {
         // "<b>Lead internal training and knowledge-sharing initiatives</b>, mentoring junior engineers and promoting best software engineering practices and excellence, and technical architecture, directly improving overall team effectiveness and project delivery timeliness",
 
         // 20250701 - Jiten's advice
-        "<b>Architected and delivered large-scale enterprise solutions</b> on ByteDance’s internal Feishu App Engine using <b>JavaScript (Node.js), Go, and Java</b>, supporting mission-critical HR, finance, insurance, and legal applications, servicing over <b>180,000 global employees</b> and reducing manual processes by up to <b>600-800 man-hours monthly per project</b>",
-
-        "<b>Drove requirements analysis and system design</b>, acting as the key liaison between business stakeholders and technical teams; translated complex business requirements into scalable software solutions (e.g., Human Capital Management (HCM), legal workflows, HR automation), achieving user adoption rates consistently above <b>75%</b>, significantly exceeding internal benchmarks",
-
-        "Designed and deployed <b>high-performance backend services</b> using <b>distributed architecture principles, Message Queues, and Redis-based caching</b>, resulting in latency reductions of over <b>50%</b> and achieving system uptimes of <b>99.95%</b> for large-scale transactional operations, directly improving operational reliability",
-
-        "<b>Pioneered reusable low-code modules and frameworks</b>, enabling rapid feature rollouts and integrations, reducing project development timelines by approximately <b>40-50%</b>, thereby significantly accelerating business responsiveness and internal innovation",
-
-        "Optimised operational workflows by implementing innovative low-code solutions, achieving nearly <b>67% cost reduction</b> compared to traditional development, saving the business approximately <b>500-700 man-hours per month per major project</b>, fostering agile innovation and substantial cost efficiencies",
-
-        "<b>Led internal training and knowledge-sharing initiatives</b>, mentoring junior engineers on best software engineering practices and technical architecture, improving project delivery speed by up to <b>30%</b> across the engineering team",
+        "<b>Architected and delivered large-scale enterprise solutions</b> on ByteDance’s internal Feishu App Engine using <b>Node.js, Go, and Java</b>, supporting mission-critical HR, finance, insurance, and legal applications for over <b>180,000 global employees</b>, achieving nearly <b>67% cost reduction</b> vs traditional development and reducing manual processes by <b>600-800 man-hours monthly per project</b>",
+        "<b>Drove requirements analysis and system design</b>, acting as the key liaison between business stakeholders and technical teams, translating complex business requirements into scalable software solutions (HCM, legal workflows, HR automation), achieving user adoption rates consistently above <b>75%</b>",
+        "Designed and deployed <b>high-performance backend services</b> using <b>distributed architecture, Message Queues, and Redis-based caching</b>, resulting in latency reductions of over <b>50%</b> and system uptimes of <b>99.95%</b> for large-scale transactional operations",
+        "<b>Pioneered reusable low-code modules and frameworks</b>, enabling rapid feature rollouts and integrations, reducing project development timelines by approximately <b>40-50%</b>",
+        "<b>Led internal training and knowledge-sharing initiatives</b>, mentoring junior engineers on software engineering practices and technical architecture, improving project delivery speed by up to <b>30%</b>",
       ],
     },
     {
-      position: "Full Stack Software Engineer, Tech Lead",
+      position: "Full-Stack Software Engineer",
       company: "Pixium Digital",
       start_date: "March 2021",
       end_date: "December 2023",
       responsibilities: [
-        // 20260701 - Jiten's advice - v2
-        "<b>Led full-stack projects in Elixir/Phoenix, JavaScript/TypeScript/React, and PHP/Yii2</b>, achieving 100% on-time delivery",
+        "<b>Led full-stack projects in Elixir/Phoenix, JavaScript/TypeScript/React, and PHP/Yii2</b>, achieving <b>100% on-time delivery</b> across multiple client engagements",
         "<b>Automated deployments using Terraform</b>, accelerating environment setup and releases by <b>80%</b>",
         "Managed <b>Docker-based PHP/Nginx/PostgreSQL environments</b>, enhancing stability and reducing downtime by <b>70%</b>",
-        "Designed <b>advanced data schemas</b>, improving integrity and reducing data processing time by <b>50%</b>",
         "<b>Optimised MySQL/PostgreSQL queries</b>, boosting analytics dashboard performance by <b>62.5%</b>",
-        "Developed detailed <b>technical documentation</b>, cutting support queries by over <b>40%</b>",
-        "Maintained <b>80% client satisfaction rate</b>, securing repeat business and revenue",
-        "Oversaw <b>UAT</b>, reducing deployment defects by <b>60%</b>",
-        "<b>Mentored junior engineers</b>, improving code quality and reducing bugs by nearly <b>30%</b>",
+        "<b>Mentored junior engineers</b> on coding practices and architecture, improving code quality and reducing bugs by nearly <b>30%</b>",
 
         // prev
         // "<b>Led full-stack projects in Elixir/Phoenix, JS/TS/React, PHP/Yii2 applications</b>",
@@ -129,13 +118,8 @@ const RESUME_DATA = {
       start_date: "September 2020",
       end_date: "February 2021",
       responsibilities: [
-        "Developed robust <b>web and mobile apps</b> in <b>Docker-based environments</b>, boosting efficiency and client retention",
-        "Built <b>Flutter-based mobile solutions</b>, integrating APIs, surpassing client expectations by <b>20%</b>",
-        "Executed rigorous <b>User Acceptance Testing (UAT) and API testing</b>, cutting defects by over <b>40%</b>",
-        "Crafted detailed <b>technical documentation</b>, improving team productivity by up to <b>30%</b>",
-        "Designed <b>efficient data schemas</b>, reducing query times by <b>25%</b>",
-        "Deployed scalable <b>Docker-powered WordPress sites</b>, reducing deployment effort by nearly <b>50%</b>",
-        "Enhanced project management skills with <b>agile methodologies</b>, streamlining client interactions",
+        "Built <b>web and mobile applications</b> in <b>PHP</b> and <b>Flutter</b> with full API integration, delivering solutions that surpassed client expectations by <b>20%</b>",
+        "Owned <b>UAT and API testing workflows</b> across projects, cutting post-deployment defects by over <b>40%</b> while automating <b>Docker-based site deployments</b> to reduce setup effort by <b>50%</b>",
       ],
     },
   ],
@@ -171,50 +155,7 @@ const RESUME_DATA = {
     },
   ],
 
-  projects_achievements: [
-    {
-      title: "Elixir — Phoenix Framework",
-      achievements: [
-        "Revolutionised a client’s workflow by engineering an advanced file management system with a nuanced search algorithm <b>(AWS Textract integration, Levenshtein & Lemmatisation)</b>, achieving a complete shift from manual to automated processes and leading to a 80% productivity boost",
-        "Developed and scaled a responsive web application with an integrated <b>RESTful API</b>, utilising product identification API, <b>FFmpeg</b> and <b>ImageMagick</b>, resulting in a 60% efficiency increase in business operations",
-        "<b>Architected a comprehensive internal company platform</b>, encompassing performance reviews, leave and remote work scheduling, sales pipelines, and room booking utilities. Seamlessly integrated a <b>WhatsApp bot</b> and an internal activity dashboard, collectively boosting organisational efficiency and streamlining employee workflows",
-        "Streamlined the <b>room booking process</b> for a top-ranked engineering university in Asia by architecting a responsive and intuitive system, resulting in a marked elevation of user efficiency and user satisfaction rates",
-      ],
-    },
-    {
-      title: "PHP — Yii2 Framework",
-      achievements: [
-        "Innovated a multi-faceted web platform amalgamating <b>messaging, friendships, and payments</b>, thereby enhancing user interaction and financial transactions within the ecosystem",
-        "Conceived and executed a robust training platform with dynamic <b>scheduling and traceable lesson logistics</b>, substantially improving training efficiency and oversight capabilities",
-        "Pioneered a cutting-edge digital dashboard that provides <b>real-time data analytics</b>, specifically focused on agricultural operations like farm analytics, leading to informed decision-making for stakeholders",
-        "Engineered and launched a game engine featuring seamless <b>Zoom integration</b>, winning significant client acclaim",
-      ],
-    },
-    {
-      title: "TypeScript",
-      achievements: [
-        "Designed and developed a <b>real-time web-based game</b> using <b>TypeScript</b> and <b>Socket.IO</b>, significantly boosting organisational cohesion and promoting team collaboration",
-      ],
-    },
-    {
-      title: "Dart — Flutter",
-      achievements: [
-        "Orchestrated a comprehensive mobile application centered around farmers, seamlessly integrating task management with <b>IoT-enabled animal health analytics</b>, thereby revolutionising agricultural practices",
-        "Conceived and launched an engaging sports prediction mobile application in <b>Dart (Flutter)</b>, leading to a remarkable 50% increase in user adoption and engagement rates within a short timeframe",
-      ],
-    },
-    {
-      title: "Java - Academic Projects",
-      achievements: [
-        "Digital Service and Incentive Platform for Sentosa Development Corporation (SDC)",
-        "Spearheaded the full-stack development of a multi-role digital platform using Java and NetBeans IDE",
-        "Architected a user management dashboard with CRUD functionalities, enhancing administrative workflows",
-        "Implemented a dynamic announcement and notification system to facilitate seamless communication",
-        "Engineered a point-based incentive system with feedback mechanism for improvement and user engagement",
-        "Amplified user experience through the inclusion of web-based mini-games and a rewarding redemption feature",
-      ],
-    },
-  ],
+  projects_achievements: [],
   languages: {
     chinese: "Native/Bilingual Proficiency",
     english: "Fluent Proficiency",
@@ -251,103 +192,20 @@ const RESUME_DATA = {
 
   technical_skills: [
     {
-      category: "Programming Languages",
-      skills: [
-        // "Go",
-        "Python",
-        "Elixir",
-        "JavaScript",
-        "Bash",
-        "TypeScript",
-        "Dart",
-        "Kotlin",
-        "Java",
-        "PHP",
-      ],
+      category: "Languages",
+      skills: ["JavaScript", "TypeScript", "Python", "Go", "Elixir", "Java", "PHP", "Dart", "Bash"],
     },
     {
       category: "Frameworks & Libraries",
-      skills: [
-        "Node.js",
-        "Phoenix",
-        "LiveView",
-        "Yii2",
-        "React",
-        "Flutter",
-        "Tailwind CSS",
-        "Vue",
-        "jQuery",
-      ],
+      skills: ["Next.js", "React", "Node.js", "Phoenix", "LiveView", "Flutter", "Tailwind CSS", "Vue"],
     },
     {
-      category: "Web Technologies",
-      skills: ["HTML5", "SCSS", "CSS"],
+      category: "Infrastructure & Databases",
+      skills: ["AWS", "Terraform", "Docker", "Redis", "PostgreSQL", "MySQL", "Firebase", "Nginx", "Grafana"],
     },
     {
-      category: "Databases & Management",
-      skills: [
-        "MySQL",
-        "PostgreSQL",
-        "Firebase Realtime Database",
-        "DynamoDB",
-        "MariaDB",
-        "TablePlus",
-        "MySQL Workbench",
-      ],
-    },
-    {
-      category: "Infrastructure, DevOps & CI/CD",
-      skills: [
-        "AWS",
-        "Terraform",
-        "Docker",
-        "Redis",
-        "Grafana",
-        "Nginx",
-        "Apache",
-        "Git",
-        "GitHub",
-        "Jest",
-        "Postman",
-      ],
-    },
-    {
-      category: "Tools & Data Formats",
-      skills: ["Trello", "Markdown", "JSON", "YAML"],
-    },
-    {
-      category: "IDEs & Editors",
-      skills: [
-        "Vim",
-        "Cursor",
-        "Trae",
-        "Visual Studio Code",
-        "Android Studio",
-        "NetBeans",
-      ],
-    },
-
-    {
-      category: "Operating Systems",
-      skills: ["macOS", "Linux"],
-    },
-    {
-      category: "Other",
-      skills: [
-        "FFmpeg",
-        "ImageMagick",
-        "Figma",
-        "AdobeXD",
-        "Vibe Coding",
-        "Prompt Engineering",
-        "ChatGPT",
-        "DeepSeek",
-        "Doubao",
-        "Claude",
-        "Gemini",
-        "Kimi",
-        "Meta AI",
-      ],
+      category: "Testing & Tools",
+      skills: ["Vitest", "Playwright", "Jest", "MSW", "Postman", "Figma"],
     },
   ],
   tools_technologies: {
