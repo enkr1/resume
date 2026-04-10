@@ -3,10 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root {
-  --metal-light: #E6E8FA;
+  --bazi-metal: #C9A882;
+  --bazi-metal-dark: #8B7355;
   --metal-primary: #C0C0C0;
-  --metal-dark: #A0A0B4;
-  --water-gold: #2A5D8A;
+  --metal-light: #E6E8FA;
+  --bazi-water: #1E4B8C;
   --stone-gray: #4A5568;
 }
 
@@ -61,8 +62,8 @@ body h2 {
   /* 备选：'Cinzel', serif（纯金质感） */
 }
 body h2 {
-  color: var(--water-gold);
-  text-shadow: 0 1px 2px rgba(42, 93, 138, 0.2);
+  color: var(--bazi-water);
+  text-shadow: 0 1px 2px rgba(201, 168, 130, 0.2);
   border-bottom: 0.15rem solid var(--metal-primary);
 }
 body h3 {
@@ -72,17 +73,17 @@ body h3 {
 body b,
 body strong {
   font-weight: 600;
-  color: var(--water-gold);
-  /* 重点数据金水色 */
-  background: linear-gradient(transparent 60%, rgba(192, 192, 192, 0.2) 0);
-  /* 银底纹 */
+  color: var(--bazi-water);
+  /* 水为体 — navy text for readability */
+  background: linear-gradient(transparent 60%, rgba(201, 168, 130, 0.25) 0);
+  /* 金为桥 — gold underline accent */
 }
 body p {
   font-size: 1.5rem;
   color: #4A5568;
 }
 body a {
-  color: #5A7D9A;
+  color: #8B7355;
 }
 
 .cn {
@@ -106,7 +107,7 @@ body a {
   margin: 0;
 }
 #resume-header .info-area h1 span {
-  color: #2A5D8A;
+  color: var(--bazi-water);
   letter-spacing: 0.13rem;
   font-weight: 600;
 }
@@ -180,8 +181,8 @@ body a {
   border-bottom: 0.1rem solid #C0C0C0;
   padding-bottom: 0.1rem;
   margin: 0 0 0.5rem;
-  color: #2A5D8A;
-  text-shadow: 0 1px 2px rgba(42, 93, 138, 0.2);
+  color: #1E4B8C;
+  text-shadow: 0 1px 2px rgba(201, 168, 130, 0.2);
 }
 #resume-main section ul {
   padding: 0 0 0rem 2.5rem;
@@ -315,7 +316,7 @@ body a {
   }
 }
 #for-hr-section h3 {
-  color: #CC0000;
+  color: #19437B;
   margin: 1.3rem 0 0;
 }
 #for-hr-section p,

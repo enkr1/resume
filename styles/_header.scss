@@ -16,9 +16,9 @@
       margin: 0;
 
       span {
-        color: $primary-color;
+        color: var(--bazi-water);
         letter-spacing: .13rem;
-        font-weight: 600; // 增强水性能量
+        font-weight: 600; // 水性能量
       }
     }
 

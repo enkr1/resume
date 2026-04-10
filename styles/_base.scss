@@ -44,9 +44,9 @@ body {
   }
 
   h2 {
-    color: var(--water-gold);
-    text-shadow: 0 1px 2px rgba(42, 93, 138, 0.2);
-    border-bottom: 0.15rem solid var(--metal-primary); // 加粗银线补金
+    color: var(--bazi-water);
+    text-shadow: 0 1px 2px rgba(201, 168, 130, 0.2); // 金性光泽
+    border-bottom: 0.15rem solid var(--metal-primary); // 银线
   }
 
   h3 {
@@ -57,10 +57,10 @@ body {
   b,
   strong {
     font-weight: 600;
-    color: var(--water-gold);
-    /* 重点数据金水色 */
-    background: linear-gradient(transparent 60%, rgba(192, 192, 192, 0.2) 0);
-    /* 银底纹 */
+    color: var(--bazi-water);
+    /* 水为体 — navy text for readability */
+    background: linear-gradient(transparent 60%, rgba(201, 168, 130, 0.25) 0);
+    /* 金为桥 — gold underline accent */
   }
 
   p {

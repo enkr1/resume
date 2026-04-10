@@ -1,24 +1,23 @@
 :root {
+  --bazi-metal: #C9A882;            // 金 Metal — accent, CTAs
+  --bazi-metal-dark: #8B7355;       // Darker gold for readable links
+  --metal-primary: #C0C0C0;        // Silver — borders, dividers
   --metal-light: #E6E8FA;
-  --metal-primary: #C0C0C0;
-  --metal-dark: #A0A0B4;
-  --water-gold: #2A5D8A;
+  --bazi-water: #1E4B8C;            // 水 Water — headings, foundation
   --stone-gray: #4A5568;
 }
 
 // Color Variables
-// $primary-color: #FF0000;          // Main brand color
-$primary-color: #2A5D8A;          // Main brand color
-$primary-color-dark: #CC0000;     // Darker variant for hover states or emphasis
-$primary-color-light: #FF6666;    // Lighter variant for backgrounds or accents
+$primary-color: #1E4B8C;            // 水 Water — headings, foundation
+$primary-color-dark: #19437B;       // Deeper water
+$primary-color-light: #5B8FD9;      // Lighter water
 
 // Text Colors
-// $primary-text-color: #333333;       // Main text color, dark grey
-$primary-text-color: #4A5568;       // Main text color, dark grey
+$primary-text-color: #4A5568;       // Main text color, stone grey
 $secondary-text-color: #555555;     // Slightly lighter grey for secondary text
 $heading-text-color: #1A1A1A;       // Darker grey for headings
-$muted-text-color: #888888;         // Muted grey for less important text (e.g., meta information)
-$primary-anchor-color: #5A7D9A;       // Main text color, dark grey
+$muted-text-color: #888888;         // Muted grey for less important text
+$primary-anchor-color: #8B7355;     // 金 Metal dark — readable gold for links
 
 // Background Colors
 $body-background-color: #FFFFFF;    // Standard white background
