@@ -24,17 +24,32 @@ const RESUME_DATA = {
   // TODO: https://www.google.com/about/careers/applications/apply?jobId=CiUAL2Fckdhgl2iAtK-ycrKPLYcOYyovf_8AcnqdnYaf0guwCRDQEjsAgOFyA8r8TB8aeiZ7rp1ncCVZ-auyzCrJ6Ov37qqXqd2T0jXYqcx3Lw_bDqyhp6VKtxaeAzCYzyVSjg%3D%3D_V2&loc=SG&title=Product+Solutions+Engineer&src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract
   // "summary": "I am incredibly excited to apply for the Product Solutions Engineer role within Google Pay’s Payments Platform Partner Engineering team—a perfect intersection of my passion for scalable engineering solutions, partner-focused problem-solving, and financial technologies. With over four years of experience delivering high-performance, secure systems at ByteDance and Pixium Digital, I bring strong expertise in JavaScript, Elixir, PHP, Python, and Go, coupled with deep hands-on experience in API development, system troubleshooting, and cloud infrastructure automation using Terraform and AWS CDK. Having worked across backend integrations, client-side workflows, and distributed systems, I excel at translating complex technical challenges into scalable solutions for both internal teams and external partners. My background includes driving tooling and automation initiatives, enhancing operational workflows, and collaborating cross-functionally to ensure seamless integration and system resilience. I am particularly eager to bring this blend of technical depth and partner-centric mindset to help Google Pay scale its payments ecosystem, delivering secure, seamless, and impactful experiences globally",
   // 20250701
+  // summary:
+  //   // v1
+  // `
+  //
+  // I'm a high-impact software engineer renowned for rapidly architecting scalable, enterprise-grade solutions that convert complex challenges into tangible business outcomes. Starting my career immediately after Polytechnic, I swiftly rose to lead critical engineering initiatives at ByteDance and Pixium Digital, building mission-critical backend systems that serve over <b>180,000 global users</b>. At ByteDance, my mastery of distributed system principles, JavaScript (Node.js), Go, Java, and advanced <b>Redis caching</b> delivered substantial operational efficiencies, trimming development costs by <b>67%</b>. At Pixium Digital, I spearheaded strategic infrastructure optimisations—boosting web application performance by <b>62.5%</b> and accelerating deployment times by <b>80%</b> through <b>Terraform and Docker</b>. Certified in <b>Data Science and Machine Learning from MIT-IDSS</b> and currently pursuing a <b>part-time BIT degree at NUS</b>, I pair relentless curiosity with hands-on expertise across cloud platforms (<b>AWS, Terraform, Docker</b>) and DevOps practices. Thriving in fast-paced, complex environments, I galvanise cross-functional teams to deliver innovative, reliable, and cost-effective software that propels business growth.
+  //
+  //   `,
+  // 20260410
   summary:
-    // v1
-  `
-
-  I'm a high-impact software engineer renowned for rapidly architecting scalable, enterprise-grade solutions that convert complex challenges into tangible business outcomes. Starting my career immediately after Polytechnic, I swiftly rose to lead critical engineering initiatives at ByteDance and Pixium Digital, building mission-critical backend systems that serve over <b>180,000 global users</b>. At ByteDance, my mastery of distributed system principles, JavaScript (Node.js), Go, Java, and advanced <b>Redis caching</b> delivered substantial operational efficiencies, trimming development costs by <b>67%</b>. At Pixium Digital, I spearheaded strategic infrastructure optimisations—boosting web application performance by <b>62.5%</b> and accelerating deployment times by <b>80%</b> through <b>Terraform and Docker</b>. Certified in <b>Data Science and Machine Learning from MIT-IDSS</b> and currently pursuing a <b>part-time BIT degree at NUS</b>, I pair relentless curiosity with hands-on expertise across cloud platforms (<b>AWS, Terraform, Docker</b>) and DevOps practices. Thriving in fast-paced, complex environments, I galvanise cross-functional teams to deliver innovative, reliable, and cost-effective software that propels business growth.
-
-    `,
+    `Software engineer with 5+ years of experience across enterprise platforms, consultancy delivery, and early-stage product development. Currently building an <b>AI-powered regulatory compliance platform at Ketchup AI</b>, owning all frontend architecture and delivering presales demos to <b>Tier-1 Singapore banks</b>. Previously at <b>ByteDance</b>, I architected aPaaS solutions serving <b>180,000+ global employees</b>, cutting development costs by <b>67%</b> through distributed caching and reusable low-code frameworks. At <b>Pixium Digital</b>, I led full-stack projects in Elixir, React, and PHP, boosting dashboard performance by <b>62.5%</b> and accelerating deployments by <b>80%</b> with Terraform and Docker. Certified in <b>Data Science and Machine Learning from MIT-IDSS</b> and currently pursuing a <b>part-time BIT degree at NUS</b>.`,
   // v2
   // "I'm a high-impact software engineer renowned for rapidly architecting enterprise-grade solutions, transforming complex challenges into tangible business outcomes. Starting my career immediately post-Polytechnic, I swiftly rose to lead critical projects at global leaders ByteDance and Pixium Digital. At ByteDance, I engineered scalable backend systems leveraging Node.js, Go, and microservices, supporting over <b>180,000 global users</b>, and reduced software development costs by <b>67%</b> via sophisticated caching strategies with <b>Redis</b>. At Pixium Digital, I spearheaded major performance initiatives—optimising infrastructure with <b>Terraform and Docker</b> to achieve <b>80%</b> faster deployments and enhancing application throughput by <b>62.5%</b>. Committed to lifelong learning, I'm certified in <b>Machine Learning (MIT-IDSS)</b> and am pursuing a <b>part-time BIT degree at NUS</b>, continually expanding my expertise at the intersection of software engineering, cloud automation (<b>AWS, Terraform, Docker</b>), DevOps methodologies, and team leadership. I thrive in fast-paced, complex environments—consistently delivering innovative, reliable, and cost-effective solutions that drive business growth and elevate organisational performance."
 
   work_history: [
+    {
+      position: "Full-Stack Software Engineer",
+      company: "Ketchup AI",
+      start_date: "October 2025",
+      end_date: "Present",
+      responsibilities: [
+        "<b>Owned all frontend architecture and delivery</b> for an AI-powered regulatory compliance platform, shipping a <b>Next.js PWA</b> from zero to production. Product quality secured presales pilots with <b>Tier-1 Singapore banks and a regional insurer</b>",
+        "Built <b>AI voice-to-form auto-fill</b> for multi-page financial compliance forms. Advisors record client conversations, AI agents extract and populate structured data in real time, replacing hours of manual data entry",
+        "Designed a <b>compliance detection engine</b> with sentence-level traceability to audio transcripts, enabling automated <b>mis-selling detection</b> with severity triage and batch rectification workflows",
+        "Shipped <b>multi-region i18n</b> across Singapore, Taiwan, and Malaysia with locale propagation to backend AI agents, <b>enterprise OAuth</b> (Microsoft, Google, LinkedIn, Apple with PKCE), and <b>PWA offline support</b> via custom Service Worker strategy",
+      ],
+    },
     {
       position: "Software Engineer, Project Manager",
       company: "ByteDance",
@@ -130,11 +145,9 @@ const RESUME_DATA = {
       institution: "National University of Singapore",
       degree: "Bachelor of Information Technology",
       start_date: "July 2025",
-      end_date: "2030",
+      end_date: "Present",
       details: [
-`
-        Actively pursuing a <b>part-time BIT degree at NUS</b> to sharpen my technical edge and broaden architectural depth — driven by a belief that the best engineers never stop learning
-`
+`Actively pursuing a <b>part-time BIT degree at NUS</b> to sharpen my technical edge and broaden architectural depth<br/>Driven by a belief that the best engineers never stop learning`
 
         // "Upcoming <b>part-time</b> academic advancement, highlighting continued investment in deepening my technical knowledge and skills while actively pursuing professional responsibilities",
       ],

@@ -373,11 +373,12 @@ body a {
     max-width: none;
     /* Override desktop max-width for printing */
   }
+  .single-education {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
   #projects-section {
-    -moz-column-break-before: page;
-         break-before: page;
-    /* Modern browsers */
-    page-break-before: always;
-    /* Older browsers */
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 }
