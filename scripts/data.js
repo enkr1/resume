@@ -44,7 +44,7 @@ const RESUME_DATA = {
       start_date: "October 2025",
       end_date: "Present",
       responsibilities: [
-        "<b>Owned all frontend architecture and delivery</b> for an AI-powered regulatory compliance platform, shipping a <b>Next.js PWA</b> from zero to production. Product quality secured presales pilots with <b>Tier-1 Singapore banks and a regional insurer</b>",
+        "<b>Owned all frontend architecture and delivery</b> for an AI-powered regulatory compliance platform, shipping a <b>Next.js PWA</b> from zero to presales-ready. Product quality advanced pilot agreements into the contract pipeline with <b>Tier-1 Singapore banks and a regional insurer</b>",
         "Built <b>AI voice-to-form auto-fill</b> for multi-page financial compliance forms. Advisors record client conversations, AI agents extract and populate structured data in real time, replacing hours of manual data entry",
         "Designed a <b>compliance detection engine</b> with sentence-level traceability to audio transcripts, enabling automated <b>mis-selling detection</b> with severity triage and batch rectification workflows",
         "Shipped <b>multi-region i18n</b> across Singapore, Taiwan, and Malaysia with locale propagation to backend AI agents, <b>enterprise OAuth</b> (Microsoft, Google, LinkedIn, Apple with PKCE), and <b>PWA offline support</b> via custom Service Worker strategy",
