@@ -344,12 +344,12 @@ body a {
 
 /* Print Styles */
 @media print {
-  @page {}
+  @page { margin: 8mm 14mm; }
   #aurora-background-container {
     display: none;
   }
   html {
-    font-size: 40%;
+    font-size: 35%;
     /* Reducing the base font size by 90% */
   }
   html h1,
@@ -358,7 +358,7 @@ body a {
     text-shadow: unset !important;
   }
   body {
-    padding: 0.5rem 1.5rem;
+    padding: 0.3rem 1.4rem;
     font-size: 1.4rem;
   }
   section {
@@ -375,7 +375,7 @@ body a {
     max-width: none;
   }
   #resume-main section {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
   }
   .single-education {
     break-inside: avoid;
