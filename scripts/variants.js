@@ -18,9 +18,9 @@
   const RESUME_VARIANTS = {
     // ---------------------------------------------------------------- Tomoro: Senior Applied AI Solution Engineer (Python + GenAI, senior/consultancy)
     tomoro: {
-      title: 'Senior Applied AI Engineer | LLM Solutions & Forward-Deployed Delivery',
-      headline: 'Ships production GenAI with enterprise clients, from prototype to deployment, and leads the engineers who deliver it',
-      summary: 'Software engineer with 5+ years across enterprise platforms and client-facing consultancy delivery, now building <b>production LLM products</b> at <b>Ketchup AI</b>: AI agents for voice-to-form extraction and a compliance-detection engine, taken from prototype to presales with <b>Tier-1 Singapore banks</b> and a regional insurer. I work hands-on in <b>Python and TypeScript</b> on the <b>LLM agent, RAG, and evaluation</b> layers, and design the <b>distributed backends and microservices</b> behind them. At <b>ByteDance</b> I architected platforms for <b>180,000+ users</b> and led requirements, delivery, and engineer mentoring as the liaison between business and engineering. Comfortable owning solutions end to end and communicating with senior stakeholders. Bilingual in English and Mandarin for APAC client delivery.',
+      title: 'Senior Applied AI Engineer | Python, LLM Agents & GenAI',
+      headline: 'Builds production GenAI in Python: LLM agents, RAG, and evaluation, shipped 0-to-1 with enterprise clients',
+      summary: '<b>Applied AI engineer building production GenAI in Python</b>, with 5+ years shipping enterprise software. At <b>Ketchup AI</b> I ship <b>LLM agents, RAG, and evaluation</b> in <b>Python and TypeScript</b>, powering voice-to-form extraction and a compliance-detection engine that I took 0-to-1 to presales with <b>Tier-1 Singapore banks</b> and a regional insurer. I design the <b>distributed backends and microservices</b> behind the agents, and at <b>ByteDance</b> I architected platforms for <b>180,000+ users</b> and led requirements, delivery, and engineer mentoring as the liaison between business and engineering. Comfortable owning solutions end to end and communicating with senior clients; bilingual in English and Mandarin for APAC delivery.',
       skills: [
         { category: 'AI & LLM', skills: ['LLM agents', 'RAG', 'Prompt engineering', 'Evaluation / evals', 'Fine-tuning', 'Function calling', 'Voice-to-form extraction'] },
         { category: 'Languages', skills: ['Python', 'TypeScript', 'Go', 'Node.js', 'Java', 'Bash'] },
