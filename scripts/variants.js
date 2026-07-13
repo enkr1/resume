@@ -16,6 +16,40 @@
   const INTERN = 'September 2020';
 
   const RESUME_VARIANTS = {
+    // ---------------------------------------------------------------- Tomoro: Senior Applied AI Solution Engineer (Python + GenAI, senior/consultancy)
+    tomoro: {
+      title: 'Senior Applied AI Engineer | LLM Solutions & Forward-Deployed Delivery',
+      headline: 'Ships production GenAI with enterprise clients, from prototype to deployment, and leads the engineers who deliver it',
+      summary: 'Software engineer with 5+ years across enterprise platforms and client-facing consultancy delivery, now building <b>production LLM products</b> at <b>Ketchup AI</b>: AI agents for voice-to-form extraction and a compliance-detection engine, taken from prototype to presales with <b>Tier-1 Singapore banks</b> and a regional insurer. I work hands-on in <b>Python and TypeScript</b> on the <b>LLM agent, RAG, and evaluation</b> layers, and design the <b>distributed backends and microservices</b> behind them. At <b>ByteDance</b> I architected platforms for <b>180,000+ users</b> and led requirements, delivery, and engineer mentoring as the liaison between business and engineering. Comfortable owning solutions end to end and communicating with senior stakeholders. Bilingual in English and Mandarin for APAC client delivery.',
+      skills: [
+        { category: 'AI & LLM', skills: ['LLM agents', 'RAG', 'Prompt engineering', 'Evaluation / evals', 'Fine-tuning', 'Function calling', 'Voice-to-form extraction'] },
+        { category: 'Languages', skills: ['Python', 'TypeScript', 'Go', 'Node.js', 'Java', 'Bash'] },
+        { category: 'Distributed & Backend', skills: ['Microservices', 'Distributed systems', 'Message queues', 'Redis caching', 'PostgreSQL', 'REST APIs'] },
+        { category: 'Cloud & Infrastructure', skills: ['AWS', 'Docker', 'Terraform', 'CI/CD', 'Nginx'] },
+        { category: 'Delivery & Leadership', skills: ['0-to-1 delivery', 'Client & stakeholder communication', 'Team mentoring', 'Code review', 'End-to-end ownership'] },
+      ],
+      work_bullets: {
+        [KETCHUP]: [
+          '<b>Took an LLM-powered compliance platform from prototype to presales-ready</b> and ran demos directly with customers, advancing pilot agreements into the contract pipeline with <b>Tier-1 Singapore banks and a regional insurer</b>: owned discovery, build, and rollout end to end',
+          'Built <b>AI voice-to-form agents</b> (Python and TypeScript) for multi-page financial compliance forms: advisors record client conversations and agents extract and populate structured data in real time, replacing hours of manual entry',
+          'Designed a <b>compliance-detection engine</b> with sentence-level traceability back to audio transcripts, powering automated <b>mis-selling detection</b> with severity triage, batch rectification, and human-in-the-loop review',
+          'Engineered the <b>backend and integration layer</b> behind the agents: multi-region locale propagation, <b>enterprise OAuth</b> (Microsoft, Google, LinkedIn, Apple via PKCE), and a production <b>Next.js</b> stack across frontend and backend',
+        ],
+        [BYTEDANCE]: [
+          "<b>Architected and delivered enterprise platform solutions</b> on ByteDance's internal Feishu App Engine in <b>Node.js, Go, and Java</b> for <b>180,000+ global employees</b> across HR, finance, insurance, and legal, at nearly <b>67% lower cost</b> than traditional development",
+          'Built <b>high-performance backend services</b> with <b>distributed architecture, message queues, and Redis caching</b>, cutting latency over <b>50%</b> at <b>99.95% uptime</b> for large-scale transactional workloads',
+          '<b>Owned requirements discovery and solution design as the liaison between business stakeholders and engineering</b>, translating ambiguous needs into shipped solutions with adoption consistently above <b>75%</b>',
+          '<b>Led internal training and mentored engineers</b> on system design and best practices, raising team delivery speed by up to <b>30%</b>, and pioneered reusable frameworks that cut delivery timelines <b>40-50%</b>',
+        ],
+        [PIXIUM]: [
+          '<b>Led full-stack client engagements end to end</b> in <b>Elixir/Phoenix, TypeScript/React, and PHP/Yii2</b>, hitting <b>100% on-time delivery</b> across multiple client deployments',
+          '<b>Optimised PostgreSQL and MySQL queries</b> to boost analytics dashboard performance by <b>62.5%</b>, working directly against real customer data',
+          '<b>Automated deployments with Terraform</b> and managed <b>Docker-based PHP/Nginx/PostgreSQL</b> environments, accelerating setup by <b>80%</b> and reducing downtime by <b>70%</b>',
+          '<b>Mentored junior engineers</b> through code review on architecture and coding practices, reducing bugs by nearly <b>30%</b>',
+        ],
+      },
+    },
+
     // ---------------------------------------------------------------- FDE / AI Solutions / Voice
     fde: {
       title: 'Forward Deployed Engineer | AI Solutions & Customer Delivery',

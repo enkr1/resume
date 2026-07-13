@@ -23,6 +23,7 @@ CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 declare -A LABELS=(
   [base]="Full-Stack"
   [fde]="FDE-AI-Solutions"
+  [tomoro]="Tomoro-Applied-AI"
   [fullstack]="Full-Stack-Senior"
   [ai-platform]="AI-Platform-Backend"
   [fintech-regtech]="Regtech-Compliance"
