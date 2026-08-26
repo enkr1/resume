@@ -8,6 +8,8 @@
   --metal-primary: #C0C0C0;
   --metal-light: #E6E8FA;
   --bazi-water: #1E4B8C;
+  --bazi-water-light: #5B8FD9;
+  --bazi-water-dark: #19437B;
   --stone-gray: #4A5568;
 }
 
@@ -246,7 +248,7 @@ body a {
 }
 
 .fab-button {
-  background: linear-gradient(135deg, var(--metal-light) 0%, var(--metal-primary) 25%, var(--metal-dark) 50%, var(--water-gold) 100%);
+  background: linear-gradient(135deg, var(--metal-light) 0%, var(--bazi-water-light) 25%, var(--bazi-water) 60%, var(--bazi-water-dark) 100%);
   color: white;
   border: none;
   border-radius: 50%;
@@ -260,7 +262,6 @@ body a {
   text-decoration: none;
   transition: background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   opacity: 0.7;
-  mix-blend-mode: difference;
 }
 .fab-button svg {
   width: 24px;

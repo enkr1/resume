@@ -11,9 +11,9 @@
   // background: linear-gradient(135deg, var(--metal-light) 0%, var(--metal-primary) 50%, var(--metal-dark) 100%);
   background: linear-gradient(135deg,
       var(--metal-light) 0%,
-      var(--metal-primary) 25%,
-      var(--metal-dark) 50%,
-      var(--water-gold) 100%);
+      var(--bazi-water-light) 25%,
+      var(--bazi-water) 60%,
+      var(--bazi-water-dark) 100%);
   color: white;
   border: none;
   border-radius: 50%; // Makes it circular
@@ -27,7 +27,6 @@
   text-decoration: none;
   transition: background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   opacity: .7;
-  mix-blend-mode: difference;
 
   svg {
     width: 24px; // Adjust icon size as needed
