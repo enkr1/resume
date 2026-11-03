@@ -27,6 +27,7 @@ declare -A LABELS=(
   [fullstack]="Full-Stack-Senior"
   [ai-platform]="AI-Platform-Backend"
   [fintech-regtech]="Regtech-Compliance"
+  [ai-native]="AI-Native-Full-Stack"
 )
 
 NAME="Jing-Hui-Pang"
@@ -56,7 +57,7 @@ mkdir -p "$OUT_DIR"
 if [ $# -gt 0 ]; then
   SCOPES=("$@")
 else
-  SCOPES=(base fde fullstack ai-platform fintech-regtech)
+  SCOPES=(base fde fullstack ai-platform fintech-regtech ai-native)
 fi
 
 echo "Building ${#SCOPES[@]} resume(s) -> personalised/"

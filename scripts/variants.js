@@ -16,6 +16,40 @@
   const INTERN = 'September 2020';
 
   const RESUME_VARIANTS = {
+    // ---------------------------------------------------------------- AI-Native Full-Stack (design + AI-agent execution, product/full-stack roles)
+    'ai-native': {
+      title: 'Senior Full-Stack Engineer | AI-Native Delivery, React & Distributed Systems',
+      headline: 'Designs the system, orchestrates AI coding agents to build it, and owns quality through review and verification',
+      summary: 'Full-stack engineer with 5+ years building cloud-native SaaS and platform products, working <b>AI-native</b>: I design the system, orchestrate AI coding agents to build it, and own quality through <b>AI code review, test generation, and verification gates</b>. At <b>Ketchup AI</b> I own the <b>React/Next.js</b> frontend and the integration layer behind the AI agents of an LLM-powered compliance SaaS, taken from zero to presales-ready with pilot agreements in the contract pipeline at <b>Tier-1 Singapore banks</b>. At <b>ByteDance</b> I built event-driven backend services and reusable frameworks on an internal PaaS for <b>180,000+ employees</b>, cutting latency over <b>50%</b> at <b>99.95% uptime</b>, and mentored engineers as the liaison between business and engineering. Certified in <b>Data Science and Machine Learning (MIT-IDSS)</b>, reading a <b>part-time BIT at NUS</b>.',
+      skills: [
+        { category: 'AI-Native Delivery', skills: ['Claude Code', 'Agent orchestration', 'AI code review', 'AI test generation', 'LLM agents', 'RAG'] },
+        { category: 'Languages', skills: ['TypeScript', 'JavaScript', 'Python', 'Java', 'Go', 'SQL', 'Bash'] },
+        { category: 'Frameworks & Backend', skills: ['React', 'Next.js', 'Node.js', 'REST APIs', 'Event-driven services', 'Message queues'] },
+        { category: 'Cloud & Data', skills: ['AWS', 'Docker', 'Terraform', 'CI/CD', 'PostgreSQL', 'MySQL', 'NoSQL (Redis, Firebase)'] },
+        { category: 'Testing & Observability', skills: ['Vitest', 'Playwright', 'Jest', 'Grafana'] },
+      ],
+      work_bullets: {
+        [KETCHUP]: [
+          '<b>Took an LLM-powered compliance SaaS from zero to presales-ready</b>, owning the <b>React/Next.js</b> frontend and the integration layer behind its AI agents; product quality advanced pilot agreements into the contract pipeline with <b>Tier-1 Singapore banks and a regional insurer</b>',
+          '<b>Ran AI-native delivery</b>: designed each feature and owned review and verification while AI coding agents (Claude Code) built it, using custom skills, hooks, and quality gates for <b>AI code review, test generation, and root-cause diagnosis</b>',
+          'Built <b>AI voice-to-form auto-fill</b> on LLM agents and designed a <b>compliance-detection engine</b> with sentence-level traceability to audio transcripts, automating mis-selling detection with severity triage and human-in-the-loop review',
+          'Shipped <b>enterprise OAuth</b> (Microsoft, Google, LinkedIn, Apple via PKCE) and a <b>multi-region</b> rollout across Singapore, Taiwan, and Malaysia with locale propagation to backend AI agents',
+        ],
+        [BYTEDANCE]: [
+          'Built <b>event-driven backend services</b> on the internal <b>Feishu App Engine PaaS</b> (serverless functions in Node.js, Go, and Java, message queues, Redis caching), cutting latency over <b>50%</b> at <b>99.95% uptime</b> for large-scale transactional workloads',
+          '<b>Architected enterprise platforms</b> for HR, finance, insurance, and legal serving <b>180,000+ global employees</b>, at nearly <b>67% lower cost</b> than traditional development and saving <b>600-800 man-hours monthly per project</b>',
+          '<b>Built reusable low-code frameworks and self-service modules</b> for faster feature rollout and integration, cutting project delivery timelines <b>40-50%</b>',
+          '<b>Drove requirements and solution design</b> as the liaison between business stakeholders and engineering, with adoption above <b>75%</b>, and <b>mentored engineers</b> on system design, lifting delivery speed up to <b>30%</b>',
+        ],
+        [PIXIUM]: [
+          '<b>Led full-stack delivery</b> in <b>JavaScript/TypeScript/React</b>, Elixir/Phoenix, and PHP/Yii2, hitting <b>100% on-time delivery</b> across client engagements',
+          '<b>Optimised PostgreSQL/MySQL schemas and queries</b>, lifting analytics dashboard performance <b>62.5%</b>',
+          '<b>Automated deployments (CI/CD) with Terraform and Docker</b>, speeding environment setup and releases <b>80%</b> and cutting downtime <b>70%</b>',
+          '<b>Mentored junior engineers</b> through code review on architecture and coding practices, reducing bugs by nearly <b>30%</b>',
+        ],
+      },
+    },
+
     // ---------------------------------------------------------------- Tomoro: Senior Applied AI Solution Engineer (Python + GenAI, senior/consultancy)
     tomoro: {
       title: 'Senior Applied AI Engineer | Python, LLM Agents & GenAI',

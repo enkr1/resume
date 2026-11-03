@@ -13,6 +13,7 @@ skills before render. No `?v=` → untouched public default (`enkr1.github.io/re
 | Senior Full-Stack | `…/resume/?v=fullstack` | TS/React/Node full-stack, product eng |
 | AI/ML Platform | `…/resume/?v=ai-platform` | Backend, distributed systems, ML platform/infra |
 | Regtech / Compliance | `…/resume/?v=fintech-regtech` | Fintech, regtech, compliance-AI, banks/insurers |
+| AI-Native Full-Stack | `…/resume/?v=ai-native` | Full-stack or product roles that want AI-assisted delivery, incl. enterprises adopting AI |
 
 ## Build PDFs
 
