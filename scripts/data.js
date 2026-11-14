@@ -51,7 +51,7 @@ const RESUME_DATA = {
       ],
     },
     {
-      position: "Software Engineer, Project Manager",
+      position: "Software Engineer",
       company: "ByteDance",
       start_date: "December 2023",
       end_date: "July 2025",
