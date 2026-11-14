@@ -22,7 +22,9 @@ skills before render. No `?v=` → untouched public default (`enkr1.github.io/re
 ./build-resumes.sh fde             # one scope only
 ```
 
-Uses system headless Chrome (zero install). Output is gitignored — regenerate any time.
+Uses system headless Chrome (zero install). Output is gitignored, so regenerate it any time.
+
+It first runs `build-static.py`, which writes the rendered base resume into `index.html` so crawlers, link previews and LLM fetch tools that skip JavaScript read the full text (`main.js` replaces it on load). `index.html` is tracked, so commit it together with any `data.js` change.
 
 ## Add a 5th scope
 

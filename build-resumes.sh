@@ -61,6 +61,8 @@ else
 fi
 
 echo "Building ${#SCOPES[@]} resume(s) -> personalised/"
+# index.html is tracked: commit the refreshed static copy together with any data.js change.
+python3 "${REPO_DIR}/build-static.py"
 for s in "${SCOPES[@]}"; do
   render "$s"
 done
