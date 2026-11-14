@@ -129,7 +129,7 @@ const RESUME_DATA = {
       institution: "National University of Singapore",
       degree: "Bachelor of Information Technology",
       start_date: "July 2025",
-      end_date: "May 2028 (expected)",
+      end_date: "July 2028 (expected)",
       details: [
 "Pursuing a <b>part-time BIT degree</b> to deepen technical and architectural expertise"
 
