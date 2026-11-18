@@ -33,7 +33,7 @@ const RESUME_DATA = {
   //   `,
   // 20260410
   summary:
-    `Software engineer with 5+ years of experience across enterprise platforms, consultancy delivery, and early-stage product development. Currently building an <b>AI-powered regulatory compliance platform at Ketchup AI</b>, owning all frontend architecture and delivering presales demos to <b>Tier-1 Singapore banks</b>. Previously at <b>ByteDance</b>, I architected aPaaS solutions serving <b>180,000+ global employees</b>, cutting development costs by <b>67%</b> through distributed caching and reusable low-code frameworks. At <b>Pixium Digital</b>, I led full-stack projects in Elixir, React, and PHP, boosting dashboard performance by <b>62.5%</b> and accelerating deployments by <b>80%</b> with Terraform and Docker. Certified in <b>Data Science and Machine Learning from MIT-IDSS</b> and currently pursuing a <b>part-time BIT degree at NUS</b>.`,
+    `Software engineer with 5+ years of experience across enterprise platforms, consultancy delivery, and early-stage product development. Currently building an <b>LLM-powered regulatory compliance platform at Ketchup AI</b>, owning all frontend architecture and delivering customer-facing pre-sales demos to <b>Tier-1 Singapore banks</b>. Previously at <b>ByteDance</b>, I architected aPaaS solutions serving <b>180,000+ global employees</b>, cutting development costs by <b>67%</b> through distributed caching and reusable low-code frameworks. At <b>Pixium Digital</b>, I led full-stack projects in Elixir, React, and PHP, boosting dashboard performance by <b>62.5%</b> and accelerating deployments by <b>80%</b> with Terraform and Docker. Certified in <b>Data Science and Machine Learning from MIT-IDSS</b> and currently pursuing a <b>part-time BIT degree at NUS</b>.`,
   // v2
   // "I'm a high-impact software engineer renowned for rapidly architecting enterprise-grade solutions, transforming complex challenges into tangible business outcomes. Starting my career immediately post-Polytechnic, I swiftly rose to lead critical projects at global leaders ByteDance and Pixium Digital. At ByteDance, I engineered scalable backend systems leveraging Node.js, Go, and microservices, supporting over <b>180,000 global users</b>, and reduced software development costs by <b>67%</b> via sophisticated caching strategies with <b>Redis</b>. At Pixium Digital, I spearheaded major performance initiatives—optimising infrastructure with <b>Terraform and Docker</b> to achieve <b>80%</b> faster deployments and enhancing application throughput by <b>62.5%</b>. Committed to lifelong learning, I'm certified in <b>Machine Learning (MIT-IDSS)</b> and am pursuing a <b>part-time BIT degree at NUS</b>, continually expanding my expertise at the intersection of software engineering, cloud automation (<b>AWS, Terraform, Docker</b>), DevOps methodologies, and team leadership. I thrive in fast-paced, complex environments—consistently delivering innovative, reliable, and cost-effective solutions that drive business growth and elevate organisational performance."
 
@@ -44,7 +44,7 @@ const RESUME_DATA = {
       start_date: "October 2025",
       end_date: "Present",
       responsibilities: [
-        "<b>Owned all frontend architecture and delivery</b> for an AI-powered regulatory compliance platform, shipping a <b>Next.js PWA</b> from zero to presales-ready. Product quality advanced pilot agreements into the contract pipeline with <b>Tier-1 Singapore banks and a regional insurer</b>",
+        "<b>Owned all frontend architecture and delivery</b> for an LLM-powered regulatory compliance platform, shipping a <b>Next.js PWA</b> from zero to presales-ready. Product quality advanced pilot agreements into the contract pipeline with <b>Tier-1 Singapore banks and a regional insurer</b>",
         "Built <b>AI voice-to-form auto-fill</b> for multi-page financial compliance forms. Advisors record client conversations, AI agents extract and populate structured data in real time, replacing hours of manual data entry",
         "Designed a <b>compliance detection engine</b> with sentence-level traceability to audio transcripts, enabling automated <b>mis-selling detection</b> with severity triage and batch rectification workflows",
         "Shipped <b>multi-region i18n</b> across Singapore, Taiwan, and Malaysia with locale propagation to backend AI agents, <b>enterprise OAuth</b> (Microsoft, Google, LinkedIn, Apple with PKCE), and <b>PWA offline support</b> via custom Service Worker strategy",
@@ -72,7 +72,7 @@ const RESUME_DATA = {
 
         // 20250701 - Jiten's advice
         "<b>Architected and delivered large-scale enterprise solutions</b> on ByteDance’s internal Feishu App Engine using <b>Node.js, Go, and Java</b>, supporting mission-critical HR, finance, insurance, and legal applications for over <b>180,000 global employees</b>, achieving nearly <b>67% cost reduction</b> vs traditional development and reducing manual processes by <b>600-800 man-hours monthly per project</b>",
-        "<b>Drove requirements analysis and system design</b>, acting as the key liaison between business stakeholders and technical teams, translating complex business requirements into scalable software solutions (HCM, legal workflows, HR automation), achieving user adoption rates consistently above <b>75%</b>",
+        "<b>Drove requirements analysis and system design</b>, acting as the cross-functional liaison between business stakeholders and technical teams, translating complex business requirements into scalable software solutions (HCM, legal workflows, HR automation), achieving user adoption rates consistently above <b>75%</b>",
         "Designed and deployed <b>high-performance backend services</b> using <b>distributed architecture, Message Queues, and Redis-based caching</b>, resulting in latency reductions of over <b>50%</b> and system uptimes of <b>99.95%</b> for large-scale transactional operations",
         "<b>Pioneered reusable low-code modules and frameworks</b>, enabling rapid feature rollouts and integrations, reducing project development timelines by approximately <b>40-50%</b>",
         "<b>Led internal training and knowledge-sharing initiatives</b>, mentoring junior engineers on software engineering practices and technical architecture, improving project delivery speed by up to <b>30%</b>",
@@ -182,19 +182,19 @@ const RESUME_DATA = {
   technical_skills: [
     {
       category: "Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "Go", "Elixir", "Java", "PHP", "Dart", "Bash"],
+      skills: ["JavaScript", "TypeScript", "Python", "Go", "Elixir", "Java", "PHP", "Dart", "SQL", "Bash"],
     },
     {
       category: "Frameworks & Libraries",
       skills: ["Next.js", "React", "Node.js", "Phoenix", "LiveView", "Flutter", "Tailwind CSS", "Vue"],
     },
     {
-      category: "Infrastructure & Databases",
+      category: "Cloud, Infrastructure & Databases",
       skills: ["AWS", "Terraform", "Docker", "Redis", "PostgreSQL", "MySQL", "Firebase", "Nginx", "Grafana"],
     },
     {
-      category: "Testing & Tools",
-      skills: ["Vitest", "Playwright", "Jest", "MSW", "Postman", "Figma"],
+      category: "Testing, Tools & Practices",
+      skills: ["Vitest", "Playwright", "Jest", "MSW", "Postman", "Figma", "Agile / Scrum"],
     },
   ],
 };

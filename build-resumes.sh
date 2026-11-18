@@ -49,9 +49,23 @@ render() {
     echo "  ✗ ${scope}: only ${bytes} bytes — render likely failed"
     return 1
   fi
+
+  local info pages title
+  info=$(pdfinfo "$out")
+  pages=$(awk '/^Pages:/ {print $2}' <<<"$info")
+  title=$(sed -n 's/^Title: *//p' <<<"$info")
+  if [ "$pages" != "1" ]; then
+    echo "  ✗ ${scope}: ${pages} pages, the resume must fit on one"
+    return 1
+  fi
+  if [ "$scope" != "base" ] && [[ "$title" != "Jing Hui Pang - "* ]]; then
+    echo "  ✗ ${scope}: PDF title is '${title}', so the variant never applied"
+    return 1
+  fi
   printf "  ✓ %-16s -> %s (%d KB)\n" "$scope" "$(basename "$out")" "$((bytes / 1024))"
 }
 
+command -v pdfinfo >/dev/null || { echo "build-resumes: pdfinfo (poppler) is needed for the one-page and variant checks"; exit 1; }
 mkdir -p "$OUT_DIR"
 
 if [ $# -gt 0 ]; then
